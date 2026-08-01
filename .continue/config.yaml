@@ -1,0 +1,32 @@
+name: Local Config
+version: 1.0.0
+schema: v1
+models:
+  - name: GLM 5.1 (Vast.ai)
+    provider: openai
+    model: GLM 5.1
+    chatOptions:
+      baseSystemMessage: "You are a helpful coding agent."
+      baseAgentSystemMessage: "You are a systematic coding agent. Break down problems methodically."
+      basePlanSystemMessage: "You are a planning agent. Create clear, actionable steps."
+    apiBase: https://vehicles-cartridge-trademark-discounted.trycloudflare.com/v1/
+      apikey: bc6f2412d5f4038b17c4db183dee285348eaf917a111378354be716c40fe70a2
+ 
+    roles:
+      - chat
+      - edit
+      - apply
+    capabilities:
+      - tool_use # Add this to enable tools  
+  - name: GLM 5.1 (Local)
+    provider: ollama
+    model: glm-5.1
+    roles:
+      - autocomplete
+  - name: Nomic Embed
+    provider: ollama
+    model: nomic-embed-text:latest
+    roles:
+      - embed
+
+ 

@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@import "./base.css";
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  html,
+  body,
+  #app {
+    height: auto !important;
+    overflow: visible !important;
+  }
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #f3f4f6 inset !important;
+  -webkit-text-fill-color: #000 !important;
+  transition: background-color 5000s ease-in-out 0s;
+  border-bottom-color: #f3f4f6;
+}
+
+
+
+::-webkit-inner-spin-button{
+  display: none !important;
+}

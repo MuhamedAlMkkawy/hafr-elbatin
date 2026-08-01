@@ -1,0 +1,2244 @@
+{
+  "app": {
+    "name": "الحضور"
+  },
+  "nav": {
+    "dashboard": "لوحة التحكم",
+    "settings": "الإعدادات",
+    "profile": "ملفي الشخصي",
+    "logout": "تسجيل الخروج",
+    "login": "تسجيل الدخول"
+  },
+  "userNotifications": {
+    "title": "الإشعارات",
+    "unreadCount": "{count} غير مقروء",
+    "markAllRead": "تمييز الكل كمقروء",
+    "search": "بحث في الإشعارات",
+    "listTitle": "قائمة الإشعارات",
+    "empty": "لا توجد إشعارات حتى الآن.",
+    "read": "مقروء",
+    "unread": "غير مقروء",
+    "new_message": "رسالة جديدة واردة",
+    "time": {
+      "just_now": "الآن",
+      "minutes_ago": "منذ {count} دقيقة",
+      "hours_ago": "منذ {count} ساعة",
+      "days_ago": "منذ {count} يوم"
+    },
+    "view_all": "عرض الجميع"
+  },
+  "auth": {
+    "needHelp": "تحتاج مساعدة؟",
+    "title": "تسجيل الدخول",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "signIn": "تسجيل الدخول",
+    "signingIn": "جارٍ تسجيل الدخول…",
+    "signOut": "تسجيل الخروج",
+    "welcomeText": "يرجى تسجيل الدخول باستخدام حسابك في نفاذ للتحقق من الهوية",
+    "emailPlaceholder": "أدخل البريد الإلكتروني",
+    "loginSuccess": "تم تسجيل الدخول بنجاح",
+    "twoFactor": {
+      "title": "التحقق من الهوية",
+      "otpTitle": "رمز التحقق",
+      "otpInstruction": "أدخل الرمز المكون من 6 أرقام.",
+      "otpConfirm": "تأكيد",
+      "otpResendText": "لم تستلم الرمز؟",
+      "otpResendAction": "إعادة الإرسال",
+      "otpSent": "تم إعادة إرسال الرمز بنجاح",
+      "otpResendTimer": "يمكنك إعادة الإرسال بعد {seconds} ثانية",
+      "qrcodeTitle": "التحقق من الهوية",
+      "qrcodeInstruction": "افتح Microsoft Authenticator App وامسح الكود",
+      "qrcodeLink": "نسخ بيانات الحساب",
+      "qrcodeButton": "تم المسح _ أدخل رمز التحقق",
+      "invalidCode": "رمز التحقق غير صحيح أو منتهي الصلاحية.",
+      "sessionLocked": "تم قفل الجلسة مؤقتاً بعد 5 محاولات فاشلة. يرجى المحاولة لاحقاً.",
+      "accountDataTitle": "بيانات الحساب",
+      "accountName": "اسم الحساب",
+      "secretKey": "المفتاح السري",
+      "openMicrosoftAuthenticator": "افتح تطبيق Microsoft Authenticator",
+      "enterKeyManually": "اختر إدخال المفتاح يدوياً",
+      "enterKeyAutomatic": "أدخل هذا المفتاح يدوياً للحصول على رمز التحقق",
+      "enterVerificationCode": "أدخل رمز التحقق",
+      "copied": "تم النسخ بـنجاح"
+    }
+  },
+  "dashboard": {
+    "title": "لوحة التحكم",
+    "welcome": "مرحبًا بعودتك، {name}.",
+    "totalEmployees": "إجمالي الموظفين",
+    "checkedInToday": "تم تسجيل الدخول اليوم",
+    "lateArrivals": "التأخيرات",
+    "fromLastMonth": "من الشهر الماضي",
+    "fromYesterday": "من أمس",
+    "recentActivity": "النشاط الأخير",
+    "employeeCheckedIn": "موظف قام بتسجيل الدخول",
+    "checkedInAt": "سجل دخول في",
+    "hoursAgo": "منذ {count} ساعة",
+    "minutesAgo": "منذ {count} دقيقة",
+    "summary_total_attendance": "إجمالي الحضور",
+    "summary_total_absent": "إجمالي الغياب",
+    "summary_total_late": "إجمالي التأخيرات",
+    "summary_total_overtime_workers": "عدد العاملين لوقت إضافي",
+    "summary_total_requests_pending": "طلبات قيد الانتظار",
+    "summary_total_pending": "قيد الانتظار",
+    "attendance_summary": "ملخص الحضور والانصراف",
+    "requests_summary": "طلبات الإجازات والأذونات الأخيرة",
+    "present": "حضور",
+    "absent": "غياب",
+    "late": "تأخير",
+    "leaves": "إجازات",
+    "permissions": "أذونات",
+    "external_missions": "مهام خارجية"
+  },
+  "attendance": {
+    "status": {
+      "present": "حاضر",
+      "absent": "غائب",
+      "late": "متأخر",
+      "leave": "إجازة",
+      "holiday": "إجازة رسمية",
+      "mission": "مهمة رسمية",
+      "rest_day": "يوم راحة"
+    }
+  },
+  "requests": {
+    "types": {
+      "instant_attendance": "حضور فوري",
+      "leave": "إجازة",
+      "permission": "إذن",
+      "overtime": "وقت إضافي",
+      "missing_punch": "نسيان بصمة"
+    },
+    "status": {
+      "pending": "قيد المراجعة",
+      "approved": "تمت الموافقة",
+      "rejected": "مرفوض",
+      "withdrawn": "تم السحب",
+      "cancelled": "ملغى"
+    }
+  },
+  "employeeDashboard": {
+    "summary": {
+      "working_days": "أيام العمل",
+      "working_hours": "ساعات العمل",
+      "leave_days": "رصيد الإجازات",
+      "late_arrival_days": "أيام التأخير",
+      "overtime_hours": "ساعات العمل الإضافي",
+      "pending_requests": "طلباتي المعلقة"
+    },
+    "charts": {
+      "attendance_breakdown": "ملخص دوامي الشهري",
+      "weekly_hours": "ساعات العمل الأسبوعية",
+      "weekly_hours_desc": "تحليل ساعات العمل الأسبوعية"
+    },
+    "latest_requests": "طلبات الإجازات والأذونات الأخيرة",
+    "latest_checkins": "عمليات تسجيل الدخول الأخيرة",
+    "view_all": "عرض الكل",
+    "view_all_requests": "عرض جميع الطلبات",
+    "status": {
+      "present": "حاضر",
+      "absent": "غائب",
+      "late": "متأخر",
+      "no_record": "لا يوجد سجل"
+    }
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "general": "عام",
+    "language": "اللغة",
+    "description": "إدارة تفضيلات وإعدادات التطبيق",
+    "generalTitle": "الإعدادات العامة",
+    "tabs": {
+      "systemInfo": "بيانات النظام",
+      "languageTimezone": "اللغة والمنطقة الزمنية"
+    },
+    "fields": {
+      "systemNameEn": "اسم النظام بالإنجليزية",
+      "systemNameAr": "اسم النظام بالعربية",
+      "phone": "رقم الجوال",
+      "email": "البريد الإلكتروني",
+      "location": "الموقع",
+      "website": "الموقع الإلكتروني",
+      "defaultLanguage": "اللغة الافتراضية للنظام",
+      "timezone": "المنطقة الزمنية",
+      "logo": "الشعار"
+    },
+    "placeholders": {
+      "systemNameEn": "اسم النظام بالإنجليزية",
+      "systemNameAr": "اسم النظام بالعربية",
+      "phone": "رقم الجوال",
+      "email": "البريد الإلكتروني",
+      "location": "الموقع",
+      "website": "الموقع الإلكتروني",
+      "defaultLanguage": "اللغة الافتراضية للنظام",
+      "timezone": "المنطقة الزمنية"
+    },
+    "logoUpload": {
+      "dragDrop": "اسحب و أفلت الشعار هنا للرفع",
+      "maxSizeHint": "الحد الأقصى لحجم الملف المسموح به هو 2 ميجابايت. وتشمل الصيغ المدعومة jpg و png.",
+      "browseFiles": "تصفح الملفات"
+    },
+    "validation": {
+      "systemNameEnRequired": "اسم النظام بالإنجليزية مطلوب",
+      "systemNameArRequired": "اسم النظام بالعربية مطلوب",
+      "defaultLanguageRequired": "اللغة الافتراضية مطلوبة",
+      "timezoneRequired": "المنطقة الزمنية مطلوبة"
+    },
+    "messages": {
+      "saved": "تم حفظ الإعدادات العامة بنجاح",
+      "error": "حدث خطأ أثناء حفظ الإعدادات",
+      "logoRemoved": "تم حذف الشعار بنجاح"
+    }
+  },
+  "roles": {
+    "entityName": "دور",
+    "title": "الأدوار والصلاحيات",
+    "description": "إدارة أدوار النظام والصلاحيات المرتبطة بها",
+    "addRole": "إضافة دور جديد",
+    "searchTitle": "فلتر البحث",
+    "resetFilters": "مسح الكل",
+    "listTitle": "قائمة الأدوار",
+    "empty": "لا توجد أدوار حتى الآن.",
+    "emptyPermissions": "لا توجد صلاحيات حتى الآن.",
+    "fields": {
+      "name": "اسم الدور",
+      "nameEn": "اسم الدور بالإنجليزية",
+      "nameAr": "اسم الدور بالعربية",
+      "status": "الحالة",
+      "actions": "الإجراءات"
+    },
+    "placeholders": {
+      "name": "اكتب اسم الدور",
+      "nameEn": "اكتب اسم الدور بالإنجليزية",
+      "nameAr": "اكتب اسم الدور بالعربية",
+      "status": "اختر حالة الدور"
+    },
+    "messages": {
+      "created": "تم اضافة الدور بنجاح",
+      "updated": "تم تعديل الدور بنجاح",
+      "activated": "تم تفعيل الدور بنجاح",
+      "deactivated": "تم الغاء تفعيل الدور بنجاح",
+      "deleted": "تم حذف الدور بنجاح",
+      "roleRetrieved": "تم استرداد الدور بنجاح"
+    },
+    "statusOptions": {
+      "all": "الكل",
+      "active": "نشط",
+      "inactive": "غير نشط"
+    },
+    "viewTitle": "عرض الدور",
+    "roleDetails": "تفاصيل الدور",
+    "view": "عرض",
+    "modals": {
+      "deleteTitle": "تأكيد حذف الدور",
+      "deleteMessage": "هل أنت متأكد أنك تريد حذف هذا الدور؟",
+      "deleteConfirm": "حذف الدور",
+      "cannotDeleteTitle": "تعذّر حذف الدور",
+      "cannotDeleteMessage": "لا يمكن حذف هذا الدور لارتباطه بمستخدمين حاليًا.",
+      "cannotDeactivateTitle": "تعذّر تعطيل الدور",
+      "cannotDeactivateMessage": "هذا الدور مرتبط بمستخدمين حاليًا. عند تعطيله، لن يتمكن المستخدمون المرتبطون به من استخدام صلاحياته."
+    },
+    "createTitle": "إضافة دور جديد",
+    "editTitle": "تعديل دور",
+    "formDescription": "قم بتحديد اسم الدور والصلاحيات المسموحة له.",
+    "basicInfo": "بيانات الدور",
+    "permissionsTitle": "قائمة الصلاحيات",
+    "permissionGroups": {
+      "general": "الأساسيات",
+      "permissions": "الصلاحيات",
+      "roles": "الأدوار"
+    },
+    "errors": {
+      "nameRequired": "اسم الدور مطلوب",
+      "minPermissions": "يجب اختيار صلاحية واحدة على الأقل",
+      "nameMin": "اسم الدور يجب أن يكون على الأقل حرفين",
+      "nameMax": "اسم الدور يجب أن لا يتجاوز 30 حرف"
+    },
+    "selectAll": "منح جميع الصلاحيات لهذا الدور"
+  },
+  "common": {
+    "selectDate": "اختر التاريخ",
+    "selectTime": "اختر الوقت",
+    "close": "إغلاق",
+    "errors": {
+      "exportFailed": "فشل التصدير"
+    },
+    "next": "التالي",
+    "previous": "السابق",
+    "assign": "تعيين ميثاق أداء",
+    "assignToEmployee": "تعيين",
+    "year": "السنة",
+    "send": "إرسال",
+    "reset": "مسح الكل",
+    "confirm": "تأكيد",
+    "view": "عرض التفاصيل",
+    "sendRequest": "إرسال الطلب",
+    "noDataToPrint": "لا توجد بيانات للطباعة",
+    "noDataToExport": "لا توجد بيانات للتصدير",
+    "daily": "اليومي",
+    "oneHour": "01 ساعة",
+    "twoHours": "02 ساعات",
+    "minutesLabel": "دقائق",
+    "monthly": "شهرية",
+    "month": "الشهر",
+    "day": "اليوم",
+    "day_singular": "يوم",
+    "date": "التاريخ",
+    "copy": "نسخ",
+    "back": "رجوع",
+    "save": "حفظ",
+    "publish": "نشر",
+    "draftSave": "حفظ كمسودة",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "create": "إنشاء",
+    "update": "تحديث",
+    "loading": "جارٍ التحميل...",
+    "error": "خطأ",
+    "success": "نجاح",
+    "search": "بحث",
+    "saveAndSend": "حفظ وإرسال",
+    "uploadFile": "اسحب و أفلت الملفات هنا للرفع",
+    "dragDropOrClick": "اسحب وأفلت الملفات هنا للرفع",
+    "dragDropOrClickLogo": "اسحب وأفلت الشعار هنا للرفع",
+    "browseFiles": "تصفح الملفات",
+    "filesHint": "الحد الأقصى لحجم الملف المسموح به هو 2 ميجابايت، وتشمل الصيغ المدعومة .jpg و .png .",
+    "fileSizeHint": "الحد الأقصي المسموح به لحجم الملفات به هو 2 ميجا بايت، وأقصى عدد للملفات هو 5.",
+    "dragLogoOrClick": "اسحب الشعار هنا",
+    "acceptedFormats": "الصيغ المقبولة",
+    "fileTooLarge": "حجم الملف يتجاوز الحد الأقصى المسموح به وهو {maxSize}",
+    "select": "اختر",
+    "chooseLanguage": "اختر لغتك المفضلة",
+    "about": "حول",
+    "ok": "حسنًا",
+    "noResults": "لا توجد نتائج",
+    "noChanges": "لم يتم إجراء أي تغييرات",
+    "required": "(مطلوب)",
+    "no_results": "لا توجد بيانات حاليًا لعرضها. يرجى إضافة المحتوى المطلوب أو التفاعل مع النظام لتحديث هذه الصفحة.",
+    "hours": "ساعات",
+    "minutes": "دقيقة",
+    "days": {
+      "sunday": "الأحد",
+      "monday": "الاثنين",
+      "tuesday": "الثلاثاء",
+      "wednesday": "الأربعاء",
+      "thursday": "الخميس",
+      "friday": "الجمعة",
+      "saturday": "السبت"
+    },
+    "actionTooltips": {
+      "view": {
+        "title": "عرض {target}",
+        "content": "عرض {target}: {name}"
+      },
+      "edit": {
+        "title": "تعديل {target}",
+        "content": "تعديل {target}: {name}"
+      },
+      "delete": {
+        "title": "حذف {target}",
+        "content": "حذف {target}: {name}"
+      },
+      "table": {
+        "title": "جدول مواعيد {target}",
+        "content": "جدول مواعيد {target}: {name}"
+      },
+      "withdraw": {
+        "title": "تراجع عن {target}",
+        "content": "تراجع عن {target}: {name}"
+      },
+      "approve": {
+        "title": "اعتماد {target}",
+        "content": "اعتماد {target}: {name}"
+      },
+      "reject": {
+        "title": "رفض {target}",
+        "content": "رفض {target}: {name}"
+      },
+      "evaluate": {
+        "title": "تقييم {target}",
+        "content": "تقييم {target}: {name}"
+      }
+    },
+    "total": "الإجمالي",
+    "printedBy": "طُبع بواسطة",
+    "page": "صفحة",
+    "of": "من",
+    "export": "تصدير",
+    "export_pdf": "تصدير PDF",
+    "export_excel": "تصدير Excel",
+    "status": "الحالة",
+    "count": "العدد",
+    "required_fields": "جميع الحقول مطلوبة",
+    "actions": "الإجراءات",
+    "or": "أو"
+  },
+  "validation": {
+    "emailInvalid": "البريد الإلكتروني غير صحيح",
+    "emailRequired": "البريد الإلكتروني مطلوب",
+    "phoneInvalid": "رقم الجوال غير صحيح. أدخل أرقامًا فقط (8 خانات على الأقل)",
+    "websiteInvalid": "الموقع الإلكتروني غير صحيح. أدخل رابطًا صالحًا (مثال: https://example.com أو www.example.com أو facebook.com)",
+    "passwordMin": "كلمة المرور يجب أن تكون على الأقل 6 أحرف",
+    "passwordRequired": "كلمة المرور مطلوبة",
+    "fieldRequired": "هذا الحقل مطلوب",
+    "minDays": "يرجى اختيار يوم واحد على الأقل",
+    "minShifts": "يرجى إضافة وردية واحدة على الأقل",
+    "nameRange": "يجب أن يكون الاسم بين 2 و 30 حرفًا",
+    "arabicOnly": "يجب أن يحتوي الحقل العربي على أحرف عربية، أرقام ورموز خاصة فقط",
+    "englishOnly": "يجب أن يحتوي الحقل الإنجليزي على أحرف إنجليزية، أرقام ورموز خاصة فقط",
+    "atLeastOneChannel": "يجب اختيار قناة إشعار واحدة على الأقل.",
+    "nameMax255": "هذا الحقل يجب ألا يتجاوز 255 حرفًا"
+  },
+  "employees": {
+    "entityName": "الموظف",
+    "title": "الموظفين",
+    "searchTitle": "فلتر البحث",
+    "resetFilters": "مسح الكل",
+    "listTitle": "قائمة الموظفين",
+    "noData": "لا توجد بيانات متاحة",
+    "export": "تصدير",
+    "print": "طباعة",
+    "viewTitle": "عرض بيانات الموظف",
+    "editTitle": "تعديل بيانات الموظف",
+    "fields": {
+      "employeeId": "رقم الموظف",
+      "employeeName": "اسم الموظف",
+      "entityName": "اسم الجهة",
+      "departmentSection": "الإدارة / القسم",
+      "role": "الدور",
+      "status": "الحالة",
+      "actions": "الإجراءات",
+      "editableSection": "الحقول القابلة للتعديل",
+      "identitySection": "هوية الموظف",
+      "employmentSection": "البيانات الوظيفية",
+      "roleLabel": "الدور",
+      "workSystemType": "نوع نظام العمل",
+      "enableMobileAttendance": "تفعيل بصمة الجوال",
+      "mobileAttendanceHint": "السماح للموظف بتسجيل الحضور والانصراف عبر الجوال",
+      "email": "البريد الإلكتروني",
+      "nationalId": "رقم الهوية",
+      "mobile": "رقم الجوال",
+      "address": "الموقع",
+      "gender": "النوع",
+      "entityCode": "رمز الجهة",
+      "positionName": "اسم المرتبة",
+      "isGovernment": "هل موظف حكومي؟",
+      "staffType": "نوع كادر التوظيف",
+      "directManager": "المدير المباشر",
+      "joinDate": "تاريخ الالتحاق بالميلادي",
+      "joinDateHijri": "تاريخ الالتحاق بالهجري",
+      "leaveDate": "تاريخ الخروج بالميلادي",
+      "leaveDateHijri": "تاريخ الخروج بالهجري",
+      "createdAt": "تاريخ الإنشاء",
+      "updatedAt": "تاريخ التعديل",
+      "appointmentGovernment": "تاريخ التعيين بالحكومة",
+      "appointmentMinistry": "تاريخ التعيين بالوزارة",
+      "mobileAttendanceStatus": "الحضور والانصراف عبر الجوال"
+    },
+    "placeholders": {
+      "nameOrId": "اسم أو رقم الموظف",
+      "departmentOrSection": "الإدارة أو القسم",
+      "branch": "اسم الجهة",
+      "role": "الدور",
+      "status": "الحالة"
+    },
+    "roles": {
+      "employee": "موظف",
+      "manager": "مدير"
+    },
+    "workSystemTypes": {
+      "fixed": "نظام ثابت",
+      "shift": "نظام الوردية"
+    },
+    "validation": {
+      "workSystemTypeRequired": "نوع نظام العمل مطلوب",
+      "roleRequired": "الدور مطلوب"
+    },
+    "workSystemChangeNote": "قد يؤثر تغيير نظام العمل على جدولة الورديات الحالية ويتطلب مراجعتها.",
+    "messages": {
+      "updated": "تم تعديل بيانات الموظف بنجاح!"
+    },
+    "mobileEnabled": "مفعل",
+    "mobileDisabled": "غير مفعل",
+    "yes": "نعم",
+    "no": "لا",
+    "male": "ذكر",
+    "female": "أنثى",
+    "tooltips": {
+      "schedule": "جدول مواعيد الموظف",
+      "scheduleContent": "عرض جدول مواعيد الموظف: {name}"
+    }
+  },
+  "sidebar": {
+    "home": "الرئيسية",
+    "branches": "الفروع",
+    "employees": "الموظفين",
+    "attendance": "الحضور والانصراف",
+    "attendanceDaily": "الحضور اليومي",
+    "attendanceRecord": "الحضور",
+    "attendanceSettings": "إعدادات الحضور والانصراف",
+    "requests": "الطلبات",
+    "requestsLeaves": "الإجازات والأذونات",
+    "requestsOvertime": "الأوقات الإضافية",
+    "requestsFingerprint": "نسيان البصمة",
+    "requestsDelegation": "طلبات التفويض",
+    "requestsSettings": "إعدادات الطلبات",
+    "reports": "التقارير",
+    "reportsAttendance": "الحضور والانصراف",
+    "reportsAbsence": "إشعارات الغياب والتأخير",
+    "reportsHours": "ساعات العمل",
+    "reportsLeaves": "الإجازات",
+    "reportsPermissions": "رصيد الأذونات",
+    "permissions": "الأذونات",
+    "reportsOvertime": "الأوقات الإضافية",
+    "reportsFingerprint": "سجل البصمة",
+    "performance": "تقييمات الأداء",
+    "performanceCharter": "ميثاق الأداء",
+    "performanceEvaluation": "نموذج التقييم",
+    "performanceAppraisal": "نموذج التقدير العام",
+    "support": "التواصل والدعم",
+    "supportComplaints": "المذكرات الداخليه",
+    "supportContact": "تواصل معنا",
+    "settings": "الإعدادات",
+    "settingsGeneral": "الإعدادات العامة",
+    "settingsRoles": "الأدوار والصلاحيات",
+    "settingsUsers": "المستخدمين",
+    "structure": "الهيكل التنظيمي",
+    "logs": "سجلات النظام",
+    "profile": "ملفي الشخصي",
+    "scheduale": "جدول الموظف"
+  },
+  "reportsData": {
+    "report_title": "عنوان التقرير",
+    "title": "عنوان التقرير",
+    "leaves": "أرصدة الإجازات",
+    "summary": "تقرير ملخص",
+    "search_by_title": "ابحث بعنوان التقرير",
+    "year": "العام",
+    "from_date": "من تاريخ",
+    "to_date": "إلى تاريخ",
+    "employee_name": "اسم الموظف",
+    "attendance_days": "عدد الحضور",
+    "no_checkout_days": "عدد عدم التحضير آخر اليوم",
+    "deduction_minutes": "دقائق الخصم",
+    "absence_days": "أيام الغياب",
+    "leave_days": "عدد أيام الإجازات",
+    "official_holidays": "عدد أيام الإجازات الرسمية",
+    "external_missions": "عدد أيام المهام الخارجية",
+    "delay_minutes_without_permission": "عدد دقائق التأخير بدون أذونات",
+    "delay_minutes_with_permission": "عدد دقائق التأخير بإذن",
+    "total_delay_minutes": "إجمالي دقائق التأخير",
+    "notification_status": "الاستدعاء؟",
+    "send_notification": "إرسال الاستدعاء",
+    "notification_sent": "تم الارسال",
+    "notification_not_sent": "لم يتم الارسال",
+    "check_in": "وقت الحضور",
+    "check_out": "وقت الانصراف",
+    "total_working_hours": "إجمالي ساعات العمل",
+    "actual_working_hours": "ساعات العمل الفعلية",
+    "difference": "الفرق",
+    "overtime": "الوقت الإضافي",
+    "status": "الحالة",
+    "employees_count": "عدد الموظفين",
+    "total_consumed_balance": "إجمالي الرصيد المستهلك",
+    "distributed_consumed_leaves": "توزيع الإجازات المستهلكة",
+    "distributed_consumed_permissions": "توزيع الأذونات المستهلكة",
+    "total_consumed_balance_minutes": "إجمالي الوقت المستهلك",
+    "total_days": "إجمالي الأيام",
+    "consumed_days": "الأيام المستهلكة",
+    "remaining_days": "الأيام المتبقية",
+    "monthly_balance": "الرصيد الشهري",
+    "remaining_balance": "الرصيد المتبقي",
+    "consumed_count": "العدد المستهلك",
+    "attendance_logs": "سجل البصمة",
+    "device_check_in": "بصمة دخول الجهاز",
+    "device_check_out": "بصمة خروج الجهاز",
+    "app_check_in": "بصمة دخول التطبيق",
+    "app_check_out": "بصمة خروج التطبيق",
+    "diff_check_in": "الفرق في بصمة الدخول",
+    "diff_check_out": "الفرق في بصمة الخروج"
+  },
+  "auditLogs": {
+    "title": "سجلات النظام",
+    "description": "مراقبة وتتبع جميع أنشطة وتغييرات النظام.",
+    "listTitle": "قائمة سجلات النظام",
+    "statisticsTitle": "إحصائيات النظام",
+    "timelineTitle": "الجدول الزمني للنشاط",
+    "viewDetails": "عرض التفاصيل",
+    "filters": {
+      "title": "فلتر البحث",
+      "event": "الحدث",
+      "events": "الأحداث",
+      "model": "النموذج",
+      "modelId": "معرف النموذج",
+      "user": "المستخدم",
+      "ipAddress": "عنوان IP",
+      "dateFrom": "من تاريخ",
+      "dateTo": "إلى تاريخ",
+      "period": "الفترة",
+      "search": "بحث في الوصف..."
+    },
+    "fields": {
+      "event": "الحدث",
+      "model": "النموذج",
+      "modelId": "المعرف",
+      "description": "الوصف",
+      "user": "المستخدم",
+      "ipAddress": "IP",
+      "userAgent": "وكيل المستخدم",
+      "createdAt": "التاريخ والوقت",
+      "changes": "التغييرات",
+      "metadata": "التفاصيل التقنية",
+      "oldValue": "القيمة القديمة",
+      "newValue": "القيمة الجديدة",
+      "field": "الحقل"
+    },
+    "periods": {
+      "today": "اليوم",
+      "yesterday": "أمس",
+      "thisWeek": "هذا الأسبوع",
+      "thisMonth": "هذا الشهر",
+      "lastMonth": "الشهر الماضي",
+      "thisYear": "هذا العام",
+      "custom": "فترة محددة"
+    },
+    "events": {
+      "created": "إنشاء",
+      "updated": "تعديل",
+      "deleted": "حذف",
+      "restored": "استعادة",
+      "login_success": "تسجيل دخول ناجح",
+      "login_failed": "فشل تسجيل الدخول",
+      "register": "تسجيل"
+    },
+    "stats": {
+      "totalLogs": "إجمالي السجلات",
+      "actionsByEvent": "العمليات حسب الحدث",
+      "actionsByModel": "العمليات حسب النموذج",
+      "topActiveUsers": "أكثر المستخدمين نشاطاً",
+      "actions": "عمليات",
+      "created": "إنشاء",
+      "updated": "تعديل",
+      "deleted": "حذف",
+      "restored": "استعادة",
+      "login_success": "تسجيل دخول ناجح",
+      "login_failed": "فشل تسجيل الدخول",
+      "register": "تسجيل"
+    },
+    "messages": {
+      "retrieved": "تم استرجاع سجلات النظام بنجاح",
+      "statsRetrieved": "تم استرجاع الإحصائيات بنجاح",
+      "timelineRetrieved": "تم استرجاع الجدول الزمني بنجاح",
+      "notFound": "سجل النظام غير موجود"
+    }
+  },
+  "errors": {
+    "404": {
+      "title": "الصفحة غير موجودة",
+      "message": "عذرًا، الصفحة التي تبحث عنها غير موجودة.",
+      "message_description": "قد تكون قد تم نقلها أو حذفها، أو أن الرابط غير صحيح. يرجى التحقق من الرابط أو العودة إلى الصفحة الرئيسية.",
+      "backHome": "الرجوع إلى الصفحة الرئيسية"
+    },
+    "403": {
+      "title": "غير مصرح",
+      "message": "عذرًا، ليس لديك إذن للوصول إلى هذه الصفحة.",
+      "message_description": "تتطلب هذه الصفحة صلاحيات خاصة. إذا كنت بحاجة إلى الوصول إليها، يرجى الاتصال بالجهات المعنية أو التأكد من تسجيل الدخول بالصلاحيات المناسبة.",
+      "backHome": "الرجوع إلى الصفحة الرئيسية"
+    },
+    "401": {
+      "title": "غير مصرح",
+      "message": "عذرًا، الجلسة منتهية أو غير صالحة.",
+      "message_description": "يرجى تسجيل الدخول مرة أخرى للوصول إلى هذه الصفحة.",
+      "backHome": "الرجوع للرئيسية"
+    }
+  },
+  "structure": {
+    "title": "الهيكل التنظيمي",
+    "searchFilter": "فلتر البحث",
+    "searchPlaceholder": "ابحث في الهيكل التنظيمي",
+    "departmentDetails": "تفاصيل القسم",
+    "departmentName": "اسم القسم",
+    "municipalityName": "اسم الإدارة الأب",
+    "departmentManager": "مدير القسم",
+    "managerId": "رقم هوية المدير",
+    "location": "الموقع",
+    "lastModified": "تاريخ آخر تعديل",
+    "viewDetails": "عرض التفاصيل",
+    "emptyDetails": "اختر قسماً لعرض تفاصيله"
+  },
+  "branches": {
+    "entityName": "الفرع",
+    "title": "الفروع",
+    "description": "إدارة الفروع والمكاتب التابعة للمؤسسة",
+    "addBranch": "إضافة فرع جديد",
+    "searchTitle": "فلتر البحث",
+    "resetFilters": "مسح الكل",
+    "listTitle": "قائمة الفروع",
+    "empty": "لا توجد فروع حتى الآن.",
+    "fields": {
+      "name": "اسم الفرع",
+      "nameAr": "اسم الفرع بالعربية",
+      "nameEn": "اسم الفرع بالإنجليزية",
+      "code": "كود الفرع",
+      "address": "العنوان",
+      "phone": "رقم الجوال",
+      "email": "البريد الإلكتروني",
+      "managerName": "اسم مدير الفرع",
+      "managerId": "المدير",
+      "status": "الحالة",
+      "actions": "الإجراءات",
+      "createdAt": "تاريخ الإنشاء",
+      "updatedAt": "تاريخ التحديث",
+      "usersCount": "عدد المستخدمين",
+      "logo": "اللوجو"
+    },
+    "placeholders": {
+      "name": "اسم الفرع",
+      "nameAr": "اسم الفرع بالعربية",
+      "nameEn": "اسم الفرع بالإنجليزية",
+      "phone": "أدخل رقم الجوال",
+      "email": "أدخل البريد الإلكتروني",
+      "managerName": "أدخل اسم مدير الفرع",
+      "managerId": "أدخل اسم المدير",
+      "status": "الحالة"
+    },
+    "messages": {
+      "created": "تم اضافة الفرع بنجاح",
+      "updated": "تم تعديل الفرع بنجاح",
+      "activated": "تم تفعيل الفرع بنجاح",
+      "deactivated": "تم الغاء تفعيل الفرع بنجاح",
+      "deleted": "تم حذف الفرع بنجاح",
+      "toggleSuccess": "تم تغيير حالة الفرع بنجاح",
+      "accessStarted": "تم بدء وضع المعاينة بنجاح",
+      "accessBranch": "الدخول للفرع",
+      "accessBranchTooltip": "الدخول كمدير لفرع {name}"
+    },
+    "modals": {
+      "addTitle": "إضافة فرع جديد",
+      "editTitle": "تعديل الفرع",
+      "viewTitle": "عرض تفاصيل الفرع",
+      "deleteTitle": "حذف الفرع",
+      "deleteMessage": "هل أنت متأكد من حذف هذا الفرع؟",
+      "toggleTitle": "تأكيد إلغاء تفعيل الفرع",
+      "toggleMessage": "هل أنت متأكد من إلغاء تفعيل هذا الفرع؟ لن يتمكن المستخدمون التابعون له من تسجيل الدخول إلى النظام.",
+      "toggleConfirm": "إلغاء التفعيل"
+    },
+    "status": {
+      "active": "نشط",
+      "inactive": "غير نشط"
+    },
+    "previewMode": {
+      "label": "وضع المعاينة",
+      "active": "معاينة كمدير فرع",
+      "exit": "إغلاق المعاينة"
+    }
+  },
+  "attendanceSettings": {
+    "title": "إعدادات الحضور والانصراف",
+    "tabs": {
+      "workSystem": "نظام العمل",
+      "shifts": "الورديات",
+      "fingerprintLocation": "موقع البصمة",
+      "notifications": "الإشعارات"
+    }
+  },
+  "locations": {
+    "entityName": "موقع",
+    "title": "مواقع البصمة",
+    "addLocation": "موقع بصمة",
+    "listTitle": "قائمة مواقع البصمة",
+    "searchTitle": "فلتر البحث",
+    "fields": {
+      "agencyName": "اسم الجهة",
+      "location": "الموقع",
+      "nameAr": "اسم الموقع بالعربية",
+      "nameEn": "اسم الموقع بالإنجليزية",
+      "latitude": "خط العرض",
+      "longitude": "خط الطول",
+      "radius": "نطاق السماح (متر)",
+      "status": "الحالة",
+      "actions": "الإجراءات",
+      "locationOnMap": "تحديد الموقع على الخريطة"
+    },
+    "placeholders": {
+      "searchAgency": "اسم أو رمز الجهة",
+      "enterAgency": "اكتب للبحث في الهيكل التنظيمي",
+      "searchLocation": "ابحث عن الموقع",
+      "radius": "متر"
+    },
+    "messages": {
+      "created": "تم إضافة موقع الحضور بنجاح.",
+      "updated": "تم تعديل موقع الحضور بنجاح.",
+      "deleted": "تم حذف موقع الحضور بنجاح.",
+      "activated": "تم تفعيل موقع الحضور بنجاح.",
+      "deactivated": "تم تعطيل موقع الحضور بنجاح.",
+      "cannotDelete": "لا يمكن حذف هذا الموقع لارتباطه بعمليات في النظام.",
+      "deactivateConfirmation": "هذا الموقع مرتبط بموظفين . سيؤدي تعطيله إلى منع تسجيل الحضور والانصراف من خلاله. يرجى التأكيد.",
+      "noData": "لا توجد بيانات متاحة",
+      "radiusHint": "يُستخدم هذا النطاق للتحقق من موقع الموظف عند الحضور والانصراف"
+    },
+    "modals": {
+      "addTitle": "إضافة موقع بصمة",
+      "editTitle": "تعديل موقع بصمة",
+      "viewTitle": "تفاصيل موقع بصمة",
+      "deleteTitle": "تأكيد الحذف",
+      "deleteMessage": "هل أنت متأكد من حذف هذا الموقع؟",
+      "deactivateTitle": "تأكيد التعطيل"
+    },
+    "validation": {
+      "agencyRequired": "اسم الجهة مطلوب",
+      "nameArRequired": "اسم الموقع بالعربية مطلوب",
+      "nameEnRequired": "اسم الموقع بالإنجليزية مطلوب",
+      "mapRequired": "تحديد الموقع على الخريطة مطلوب",
+      "radiusRequired": "نطاق السماح مطلوب",
+      "radiusMin": "نطاق السماح يجب أن يكون أكبر من 0"
+    },
+    "status": {
+      "active": "نشط",
+      "inactive": "غير نشط"
+    }
+  },
+  "workSystems": {
+    "entityName": "نظام العمل",
+    "title": "نظام العمل",
+    "fixedTitle": "نظام ثابت",
+    "shiftTitle": "نظام ورديات",
+    "addFixed": "نظام ثابت",
+    "addShift": "نظام وردية",
+    "searchTitle": "فلتر البحث",
+    "listTitle": "قائمة نظام العمل",
+    "fields": {
+      "name": "اسم نظام العمل",
+      "type": "نوع نظام العمل",
+      "status": "الحالة",
+      "actions": "الإجراءات",
+      "nameAr": "اسم نظام العمل بالعربية",
+      "nameEn": "اسم نظام العمل بالإنجليزية",
+      "workingDays": "أيام العمل الأسبوعية",
+      "maxDailyPermission": "الحد الأقصى لساعات الإذن اليومية",
+      "checkInStart": "وقت بداية تسجيل الحضور",
+      "positiveBalance": "الرصيد الإيجابي",
+      "flexibleGracePeriod": "فترة السماح للحضور المرن",
+      "positiveBalanceFactor": "معامل احتساب الرصيد الإيجابي",
+      "endOfWorkTime": "وقت نهاية الدوام",
+      "dailyWorkingHours": "عدد ساعات العمل اليومية",
+      "lastCheckoutTime": "آخر موعد لتسجيل الانصراف",
+      "typeLabel": "نوع نظام العمل"
+    },
+    "placeholders": {
+      "name": "اسم نظام العمل",
+      "type": "نوع نظام العمل",
+      "status": "الحالة"
+    },
+    "types": {
+      "fixed": "ثابت",
+      "shift": "وردية"
+    },
+    "messages": {
+      "created": "تم اضافة نظام العمل بنجاح",
+      "updated": "تم تعديل نظام العمل بنجاح",
+      "activated": "تم تفعيل نظام العمل بنجاح",
+      "deactivated": "تم الغاء تفعيل نظام العمل بنجاح",
+      "deleted": "تم حذف نظام العمل بنجاح",
+      "toggleSuccess": "تم تغيير حالة نظام العمل بنجاح",
+      "retrieved": "تم استرداد نظام العمل بنجاح"
+    },
+    "modals": {
+      "addFixedTitle": "إضافة نظام ثابت",
+      "addShiftTitle": "إضافة نظام الوردية",
+      "viewTitle": "عرض نظام الدوام الرسمي",
+      "viewShiftTitle": "عرض نظام الوردية",
+      "editFixedTitle": "تعديل نظام ثابت",
+      "editShiftTitle": "تعديل نظام الوردية",
+      "deleteTitle": "حذف نظام العمل",
+      "deleteMessage": "سيؤدي حذف نظام العمل إلى إزالة جميع الإعدادات المرتبطة به، ولا يمكن التراجع عن هذا الإجراء بعد تنفيذه.",
+      "confirmToggleTitle": "هل ترغب في حفظ وتفعيل النظام الجديد؟",
+      "confirmToggleMessage": "تفعيل النظام الجديد سيؤدي إلى إلغاء تفعيل النظام الحالي. هل ترغب في حفظ النظام الجديد دون تفعيله، أم حفظه وتفعيله الآن؟",
+      "saveAndActivate": "حفظ وتفعيل",
+      "saveOnly": "حفظ فقط",
+      "activeFixedTitle": "يوجد نظام عمل ثابت مُفعّل حاليًا.",
+      "activeShiftTitle": "يوجد نظام عمل وردية مُفعّل حاليًا.",
+      "conflictMessage": "عند حفظ وتفعيل النظام الجديد سيتم إلغاء تفعيل النظام الحالي. هل ترغب في حفظ النظام الجديد فقط أم حفظه وتفعيله؟",
+      "cannotDeleteTitle": "تعذّر حذف نظام العمل",
+      "cannotDeleteMessage": "لا يمكن حذف نظام العمل لأنه مستخدم في النظام",
+      "cannotActivateTitle": "تأكيد تفعيل نظام العمل",
+      "cannotActivateMessage": "يوجد نظام عمل مفعل من نفس النوع. هل ترغب في إلغاء تفعيل النظام الحالي وتفعيل هذا النظام؟",
+      "confirmAndActivate": "تأكيد",
+      "deactivationNotAllowedTitle": "تعذّر إلغاء تفعيل النظام",
+      "deactivationNotAllowedMessage": "لا يمكن إلغاء تفعيل نظام العمل الحالي.\nيجب أن يكون هناك نظام عمل مفعل من هذا النوع."
+    },
+    "validation": {
+      "nameArRequired": "اسم نظام العمل بالعربية مطلوب",
+      "nameArRange": "يجب أن يكون اسم نظام العمل بالعربية من 2 إلى 30 حرفًا",
+      "nameArUnique": "اسم نظام العمل بالعربية موجود بالفعل",
+      "nameEnRequired": "اسم نظام العمل بالإنجليزية مطلوب",
+      "nameEnRange": "يجب أن يكون اسم نظام العمل بالإنجليزية من 2 إلى 30 حرفًا",
+      "nameEnUnique": "اسم نظام العمل بالإنجليزية موجود بالفعل",
+      "workingDaysRequired": "أيام العمل الأسبوعية مطلوبة",
+      "checkInStartRequired": "وقت بداية تسجيل الحضور مطلوب",
+      "positiveBalanceRequired": "مدة الرصيد الإيجابي مطلوبة",
+      "positiveBalanceFactorRequired": "معامل احتساب الرصيد الإيجابي مطلوب",
+      "positiveBalanceFactorRange": "يجب إدخال قيمة بين 0 و100",
+      "flexibleGracePeriodRequired": "فترة السماح للحضور المرن مطلوبة",
+      "dailyWorkingHoursRequired": "عدد ساعات العمل اليومية مطلوب",
+      "lastCheckoutTimeRequired": "اخر موعد تسجيل انصراف مطلوب",
+      "maxDailyPermissionRequired": "الحد الأقصى للاذن اليومي مطلوب",
+      "endOfWorkTimeRequired": "وقت نهاية الدوام مطلوب",
+      "endOfWorkTimeValidation": "وقت نهاية الدوام يجب أن يكون بعد وقت بداية تسجيل الحضور",
+      "lastCheckoutTimeValidation": "آخر وقت مسموح به لتسجيل الانصراف يجب أن يكون أكبر من أو يساوي وقت نهاية الدوام."
+    },
+    "success": {
+      "activated": "تم تفعيل نظام العمل بنجاح",
+      "savedOnly": "تم حفظ نظام العمل بنجاح، ولكن لم يتم تفعيله."
+    },
+    "shifts": {
+      "morning": "الفترة الصباحية",
+      "evening": "الفترة المسائية",
+      "night": "الفترة الليلية"
+    }
+  },
+  "shifts": {
+    "entityName": "الوردية",
+    "title": "الورديات",
+    "addShift": "نظام الوردية",
+    "searchTitle": "فلتر البحث",
+    "listTitle": "قائمة الورديات",
+    "empty": "لا توجد ورديات حتى الآن.",
+    "addNewShift": "إضافة وردية",
+    "fields": {
+      "name": "اسم الوردية",
+      "nameAr": "اسم الوردية بالعربية",
+      "nameEn": "اسم الوردية بالإنجليزية",
+      "type": "نوع الوردية",
+      "department": "القسم",
+      "actions": "الإجراءات"
+    },
+    "placeholders": {
+      "name": "اسم الوردية",
+      "type": "نوع الوردية",
+      "department": "اختر قسم"
+    },
+    "types": {
+      "annual": "سنوية",
+      "monthly": "شهرية"
+    },
+    "messages": {
+      "created": "تم اضافة الوردية بنجاح",
+      "updated": "تم تعديل الوردية بنجاح",
+      "deleted": "تم حذف الوردية بنجاح",
+      "retrieved": "تم استرداد الوردية بنجاح"
+    },
+    "modals": {
+      "addTitle": "إضافة وردية",
+      "editTitle": "تعديل وردية",
+      "viewTitle": "عرض تفاصيل الوردية",
+      "deleteTitle": "تأكيد حذف الوردية",
+      "deleteMessage": "هل أنت متأكد من حذف هذه الوردية؟",
+      "cannotDeleteTitle": "تعذّر حذف الوردية",
+      "cannotDeleteMessage": "لا يمكن حذف هذه الوردية لارتباطها بمستخدمين حاليًا.",
+      "schedules": {
+        "entityName": "الجدول",
+        "title": "جدولة الوردية",
+        "addSchedule": "إضافة جدولة جديدة",
+        "editSchedule": "تعديل جدولة سنوية",
+        "viewSchedule": "تفاصيل الجدولة السنوية",
+        "annualSchedule": "جدولة سنوية",
+        "monthlySchedule": "جدولة شهرية",
+        "fields": {
+          "year": "السنة",
+          "workingDays": "أيام العمل الأسبوعية",
+          "morning": "الفترة الصباحية",
+          "evening": "الفترة المسائية",
+          "night": "الفترة الليلية",
+          "employee": "الموظف",
+          "period": "الفترة",
+          "month": "الشهر",
+          "status": "الحالة",
+          "createdBy": "أُنشئت بواسطة"
+        },
+        "placeholders": {
+          "year": "اختر السنة",
+          "selectEmployee": "اختر موظف للفترة",
+          "month": "اختر الشهر",
+          "status": "الحالة"
+        },
+        "messages": {
+          "created": "تم اضافة الجدولة السنوية بنجاح",
+          "updated": "تم تعديل الجدولة السنوية بنجاح",
+          "deleted": "تم حذف الجدولة بنجاح",
+          "yearExists": "يوجد بالفعل جدولة سنوية مضافة لهذه السنة",
+          "employeeUnique": "لا يمكن تعيين الموظف لأكثر من فترة في نفس اليوم",
+          "employeeUnavailable": "الموظف المحدد غير متاح خلال هذه الفترة.",
+          "employeeRequired": "الموظف مطلوب لكل فترة",
+          "yearRequired": "السنة مطلوبة",
+          "workingDaysRequired": "أيام العمل الأسبوعية مطلوبة",
+          "monthlyCreated": "تم اضافة الجدولة الشهرية بنجاح",
+          "monthlySavedDraft": "تم حفظ الجدولة الشهرية كمسودة بنجاح",
+          "monthlyUpdated": "تم تعديل الجدولة الشهرية بنجاح",
+          "monthExists": "يوجد بالفعل جدولة شهرية مضافة لهذا الشهر.",
+          "confirmDeleteTitle": "تأكيد حذف الجدولة",
+          "confirmDeleteMessage": "هل أنت متأكد من رغبتك في حذف جدولة شهر {month}؟",
+          "noData": "لا توجد بيانات متاحة",
+          "monthRequired": "الشهر مطلوب",
+          "copyConfirm": "عند النسخ من شهر سابق، سيتم استبدال جميع البيانات الحالية.",
+          "employeeNotRegistered": "الموظف لم يعد مسجلاً في هذا النظام أو القسم.",
+          "monthlyCopied": "تم نسخ الجدولة بنجاح",
+          "cancelTitle": "تأكيد إلغاء الجدولة الشهرية",
+          "cancelMessage": "سيتم حذف جميع البيانات غير المحفوظة في هذه الجدولة.",
+          "cancelContinueEditing": "استمرار التعديل",
+          "copyDaySuccessTitle": "تم نسخ بيانات اليوم السابق بنجاح",
+          "copyDaySuccessMessage": "تم تطبيق تعيينات الورديات لليوم السابق على هذا اليوم.",
+          "reviewSchedule": "مراجعة الجدولة",
+          "copyDayEmptyTitle": "تعذّر نسخ بيانات اليوم السابق",
+          "copyDayEmptyMessage": "لا توجد بيانات ورديات مسجلة لليوم السابق للنسخ منها.",
+          "assignManually": "تعيين الورديات يدويًا",
+          "draftSavedTitle": "تم حفظ الجدولة الشهرية كمسودة بنجاح",
+          "draftSavedMessage": "يمكنك العودة لاحقًا لاستكمال تعيين الورديات ونشر الجدول.",
+          "continueSchedule": "استكمال الجدولة",
+          "publishedTitle": "تم نشر جدول الورديات بنجاح",
+          "publishedMessage": "تم إشعار الموظفين بالجدول الجديد.",
+          "viewPublishedSchedule": "عرض الجدول المنشور",
+          "incompleteBanner": "يوجد {count} أيام غير مكتملة في جدول الورديات.",
+          "showIncompleteDays": "عرض الأيام غير المكتملة",
+          "incompleteModalTitle": "يوجد أيام غير مكتملة في جدول الورديات.",
+          "incompleteModalMessage": "يمكنك حفظ الجدول كمسودة الآن، أو استكمال تعيين الموظفين لجميع الفترات قبل النشر.",
+          "incompleteModalContinue": "استكمال الأيام غير المكتملة",
+          "incompleteModalSaveDraft": "إلغاء وحفظ كمسودة"
+        },
+        "saveAndSend": "حفظ وإرسال",
+        "monthlyTitle": "الجدولة الشهرية",
+        "addMonthlySchedule": "إضافة جدولة شهرية",
+        "editMonthlySchedule": "تعديل الجدولة الشهرية",
+        "viewMonthlySchedule": "عرض تفاصيل الجدولة",
+        "status": {
+          "published": "منشورة",
+          "draft": "مسودة",
+          "all": "الكل"
+        },
+        "saveAsDraft": "حفظ كمسودة",
+        "publish": "نشر وإرسال إشعار",
+        "copyPreviousMonth": "نسخ من شهر سابق",
+        "copyPreviousDay": "نسخ من يوم سابق",
+        "back": "رجوع"
+      }
+    }
+  },
+  "notifications": {
+    "title": "الإشعارات",
+    "listTitle": "قائمة الإشعارات",
+    "searchTitle": "فلتر البحث",
+    "entityName": "إشعار",
+    "empty": "لا توجد إشعارات حتى الآن.",
+    "resetFilters": "مسح الكل",
+    "fields": {
+      "name": "اسم الإشعار",
+      "channels": "قنوات الإرسال",
+      "status": "الحالة",
+      "actions": "الإجراءات",
+      "titleAr": "عنوان الإشعار بالعربية",
+      "titleEn": "عنوان الإشعار بالإنجليزية",
+      "contentAr": "نص الإشعار بالعربية",
+      "contentEn": "نص الإشعار بالإنجليزية",
+      "emailSubjectAr": "عنوان البريد الإلكتروني بالعربية",
+      "emailSubjectEn": "عنوان البريد الإلكتروني بالإنجليزية",
+      "emailBodyAr": "نص البريد الإلكتروني بالعربية",
+      "emailBodyEn": "نص البريد الإلكتروني بالإنجليزية",
+      "smsSubjectAr": "عنوان الرسالة القصيرة بالعربية",
+      "smsSubjectEn": "عنوان الرسالة القصيرة بالإنجليزية",
+      "smsContentAr": "نص الرسالة القصيرة بالعربية",
+      "smsContentEn": "نص الرسالة القصيرة بالإنجليزية"
+    },
+    "placeholders": {
+      "name": "اسم الإشعار",
+      "status": "الحالة",
+      "titleAr": "العنوان بالعربية",
+      "titleEn": "العنوان بالإنجليزية",
+      "contentAr": "النص بالعربية",
+      "contentEn": "النص بالإنجليزية",
+      "emailSubjectAr": "عنوان البريد الإلكتروني بالعربية",
+      "emailSubjectEn": "عنوان البريد الإلكتروني بالإنجليزية",
+      "emailBodyAr": "نص البريد الإلكتروني بالعربية",
+      "emailBodyEn": "نص البريد الإلكتروني بالإنجليزية",
+      "smsPlaceholder": "أدخل نص الرسالة هنا...",
+      "emailPlaceholder": "أدخل نص البريد الإلكتروني هنا..."
+    },
+    "channels": {
+      "push": "إشعار فوري",
+      "mail": "البريد الإلكتروني",
+      "sms": "رسالة نصية SMS"
+    },
+    "modals": {
+      "editTitle": "تعديل {name}",
+      "templateTitle": "قالب الإشعار",
+      "emailTemplateTitle": "قالب البريد الإلكتروني",
+      "smsTemplateTitle": "قالب الرسائل"
+    },
+    "messages": {
+      "updated": "تم تحديث الإشعار بنجاح",
+      "activated": "تم تفعيل الإشعار بنجاح",
+      "deactivated": "تم تعطيل الإشعار بنجاح"
+    }
+  },
+  "requestsSettings": {
+    "title": "إعدادات الطلبات",
+    "tabs": {
+      "leaveTypes": "أنواع الإجازات",
+      "permissions": "الأذونات",
+      "overtime": "الأوقات الإضافية",
+      "holidays": "الإجازات الرسمية",
+      "notifications": "الإشعارات"
+    },
+    "permissions": {
+      "title": "الأذونات",
+      "maxMonthlyHours": "الحد الأقصى لساعات الإذن الشهرية",
+      "maxDailyHours": "الحد الأقصى لساعات الإذن اليومية",
+      "recalculateBalance": "يتم إعادة احتساب رصيد أذونات الموظف.",
+      "warningPending": "هذا الطلب يتجاوز حد أذونات الشهر المحدث."
+    },
+    "overtime": {
+      "title": "إعدادات الوقت الإضافي ",
+      "requiredHours": "ساعات الوقت الإضافي المطلوبة",
+      "requiredHoursHint": "الحد الأدنى من الساعات التي يجب علي الموظف إكمالها للحصول على الوقت الإضافي الكامل.",
+      "overtimeHours": "ساعات الوقت الإضافي ",
+      "overtimeHoursHint": "عدد ساعات الوقت الإضافي التي تُمنح للموظف إذا تم تحقيق الساعات المطلوبة. وإذا لم تتحقق، يتم احتساب الساعات الفعلية فقط."
+    },
+    "messages": {
+      "permissionsSaved": "تم حفظ إعدادات الأذونات بنجاح",
+      "overtimeSaved": "تم حفظ إعدادات الوقت الإضافي بنجاح",
+      "validationError": "يرجى التحقق من صحة البيانات المدخلة",
+      "maxDailyExceedsMaxMonthly": "يجب أن يكون الحد الأقصى لساعات الإذن اليومية أقل من أو يساوي الحد الأقصى لساعات الإذن الشهرية"
+    }
+  },
+  "holidays": {
+    "entityName": "إجازة رسمية",
+    "title": "الإجازات الرسمية",
+    "addHoliday": "إجازة رسمية",
+    "searchTitle": "فلتر البحث",
+    "listTitle": "الإجازات الرسمية",
+    "fields": {
+      "nameAr": "اسم الإجازة بالعربية",
+      "nameEn": "اسم الإجازة بالإنجليزية",
+      "startDate": "من",
+      "endDate": "إلى",
+      "totalDays": "عدد الأيام",
+      "descriptionAr": "الوصف بالعربية",
+      "descriptionEn": "الوصف بالإنجليزية",
+      "isActive": "الحالة",
+      "actions": "الإجراءات",
+      "holidayName": "اسم الإجازة",
+      "date": "التاريخ"
+    },
+    "placeholders": {
+      "holidayName": "اسم الإجازة",
+      "startDate": "من تاريخ",
+      "endDate": "إلى تاريخ",
+      "descriptionAr": "الوصف بالعربية",
+      "descriptionEn": "الوصف بالإنجليزية",
+      "selectTime": "حدد الفترة الزمنية"
+    },
+    "messages": {
+      "created": "تم إضافة الإجازة بنجاح",
+      "updated": "تم تعديل الإجازة بنجاح",
+      "deleted": "تم حذف الإجازة بنجاح",
+      "cannotEditPastMonth": "لا يمكن تعديل إجازة بتاريخ بشهر سابق",
+      "cannotDeletePastMonth": "لا يمكن حذف إجازة بتاريخ بشهر سابق",
+      "confirmDelete": "هل أنت متأكد من حذف هذه الإجازة؟"
+    },
+    "modals": {
+      "addTitle": "إضافة إجازة رسمية",
+      "editTitle": "تعديل إجازة رسمية",
+      "viewTitle": "عرض تفاصيل الإجازة الرسمية",
+      "deleteTitle": "تأكيد الحذف"
+    },
+    "validation": {
+      "nameArRequired": "اسم الإجازة بالعربية مطلوب",
+      "nameEnRequired": "اسم الإجازة بالإنجليزية مطلوب",
+      "startDateRequired": "تاريخ البداية مطلوب",
+      "endDateRequired": "تاريخ النهاية مطلوب",
+      "startDatePastMonth": "لا يمكن اختيار تاريخ من شهر سابق",
+      "endDateBeforeStartDate": "تاريخ النهاية يجب أن يكون بعد أو يساوي تاريخ البداية"
+    }
+  },
+  "dailyAttendance": {
+    "editTime": "الوقت",
+    "listTitle": "سجل الحضور والانصراف",
+    "title": "الحضور اليومي",
+    "summary": {
+      "totalEmployees": "إجمالي الموظفين",
+      "totalPresent": "إجمالي الحضور",
+      "totalAbsent": "إجمالي الغياب",
+      "totalOvertime": "العاملين وقت إضافي"
+    },
+    "fields": {
+      "checkIn": "وقت الدخول",
+      "checkOut": "وقت الخروج",
+      "selfie": "صورة الحضور",
+      "status": "الحالة",
+      "actualHours": "ساعات العمل الفعلية",
+      "workingHoursDetails": "ساعات العمل",
+      "actualHours2": "الساعات الفعلية",
+      "lateness": "التأخير",
+      "earlyLeave": "الانصراف المبكر",
+      "earlyLeaveUsed": "الانصراف المبكر المستهلك",
+      "overtimeCheckIn": "بصمة الوقت الإضافي ",
+      "overtimeActualHours": "الوقت الإضافي ",
+      "overtimeStatus": "حالة الوقت الإضافي ",
+      "overtimeHours": "الوقت الإضافي",
+      "shiftStart": "بداية الدوام",
+      "shiftEnd": "نهاية الدوام",
+      "day": "اليوم",
+      "workingHours": "عدد ساعات العمل",
+      "positiveBalance": "الرصيد الإيجابي",
+      "positiveBalanceUsed": "الرصيد الإيجابي المستهلك",
+      "excusals": "الأذونات",
+      "overtimePunch": "بصمة الوقت الإضافي",
+      "overtime": "الوقت الإضافي",
+      "shift": "الوردية"
+    },
+    "status": {
+      "present": "حاضر",
+      "absent": "غائب",
+      "late": "متأخر",
+      "leave": "إجازة",
+      "holiday": "إجازة رسمية",
+      "mission": "مهمة رسمية",
+      "rest_day": "يوم راحة",
+      "Executed": "منفذ",
+      "Not Executed": "غير منفذ",
+      "withdrawn": "تم التراجع",
+      "executed": "منفذ"
+    },
+    "statistics": {
+      "title": "إحصائيات الحضور والانصراف",
+      "totalWorkingHours": "الساعات الفعلية",
+      "absentDays": "عدد أيام الغياب",
+      "holidayDays": "عدد أيام الإجازات",
+      "excusalHours": "ساعات الأذونات",
+      "positiveBalance": "الرصيد الإيجابي",
+      "missions": "عدد أيام المهام الخارجية"
+    },
+    "editTimeModal": {
+      "title": "تعديل وقت الدخول والخروج",
+      "checkIn": "وقت الدخول",
+      "checkOut": "وقت الخروج",
+      "save": "حفظ",
+      "cancel": "إلغاء",
+      "errorCheckOutBeforeCheckIn": "وقت الدخول لا يمكن أن يتعدى وقت الخروج"
+    },
+    "tabs": {
+      "dailyAttendance": "الحضور اليومي",
+      "attendanceLog": "سجل الحضور",
+      "instantAttendance": "الحضور الفوري",
+      "history": "سجل الحضور والانصراف"
+    },
+    "instantAttendance": {
+      "title": "سجل الحضور الفوري",
+      "fields": {
+        "requestDate": "تاريخ الإرسال",
+        "requestTime": "وقت الارسال",
+        "sender": "أُرسل بواسطة",
+        "createdBy": "أُنشئ بواسطة",
+        "employeeName": "اسم الموظف",
+        "checkInTime": "وقت البصمة الفورية",
+        "status": "الحالة"
+      },
+      "status": {
+        "executed": "منفذ",
+        "pending": "قيد الانتظار",
+        "expired": "منتهي",
+        "not_executed": "غير منفذ"
+      },
+      "requestButton": "طلب بصمة حضور فوري",
+      "modals": {
+        "confirmTitle": "تأكيد إرسال طلب بصمة الحضور الفوري",
+        "confirmMessage": "سيتم إرسال إشعار طلب تأكيد الحضور إلى جميع الموظفين الحاضرين اليوم.",
+        "confirmMessageNoNotifications": "سيتم إنشاء طلب تأكيد الحضور لجميع الموظفين الحاضرين اليوم، ولكن لن يتم إرسال إشعار لهم لعدم تفعيل إشعار الحضور الفوري في الإعدادات. هل ترغب بالمتابعة؟",
+        "send": "إرسال",
+        "cancel": "إلغاء"
+      },
+      "messages": {
+        "sentSuccess": "تم إرسال طلب الحضور الفوري بنجاح"
+      }
+    }
+  },
+  "print": {
+    "ministry": {
+      "line1": "المملكة العربية السعودية",
+      "line2": "وزارة البلديات والإسكان",
+      "line3": "أمانة محافظة حفر الباطن"
+    },
+    "header": {
+      "user": "المستخدم:",
+      "date": "التاريخ:",
+      "time": "الوقت:",
+      "reportTitle": "عنوان التقرير:",
+      "fromDate": "من تاريخ:",
+      "toDate": "إلى تاريخ:"
+    },
+    "footer": {
+      "page": "صفحة",
+      "of": "من",
+      "user": "المستخدم :"
+    }
+  },
+  "leaveTypes": {
+    "title": "أنواع الإجازات",
+    "searchTitle": "فلتر البحث",
+    "listTitle": "الإجازات",
+    "fields": {
+      "leaveName": "اسم الإجازة",
+      "leaveType": "نوع الإجازة",
+      "balance": "الرصيد بالأيام"
+    },
+    "placeholders": {
+      "leaveName": "اسم الإجازة"
+    }
+  },
+  "overtimeRequests": {
+    "entityName": "طلب وقت إضافي",
+    "title": "الأوقات الإضافية",
+    "addRequest": "طلب وقت إضافي",
+    "searchTitle": "فلتر البحث",
+    "listTitle": "سجل الأوقات الإضافية",
+    "empty": "لا توجد أوقات إضافية حتى الآن.",
+    "export": "تصدير",
+    "print": "طباعة",
+    "fields": {
+      "employeeName": "اسم الموظف",
+      "createdBy": "أُنشئ بواسطة",
+      "overtimeDate": "تاريخ الوقت الإضافي",
+      "overtimeCheckIn": "بصمة الوقت الإضافي",
+      "duration": "عدد الساعات",
+      "duration_hours": "عدد ساعات الوقت الإضافي",
+      "status": "الحالة",
+      "reason": "السبب",
+      "actions": "الإجراءات"
+    },
+    "placeholders": {
+      "selectEmployee": "اسم الموظف",
+      "date": "التاريخ",
+      "reason": "أدخل سبب طلب الوقت الإضافي",
+      "searchEmployee": "اسم او رقم الموظف",
+      "selectDateRange": "حدد الفترة الزمنية",
+      "status": "الحالة"
+    },
+    "status": {
+      "pending": "غير منفذ",
+      "executed": "منفذ",
+      "withdrawn": "تم التراجع"
+    },
+    "modals": {
+      "addTitle": "طلب وقت إضافي",
+      "viewTitle": "عرض تفاصيل طلب الوقت الإضافي",
+      "withdrawTitle": "تراجع عن الطلب",
+      "withdraw": "تراجع",
+      "editTitle": "تعديل طلب وقت إضافي",
+      "withdrawMessage": "هل أنت متأكد من التراجع عن هذا الطلب؟",
+      "cancelTitle": "إلغاء الطلب",
+      "workflow": "سير الطلب",
+      "action": "الإجراء",
+      "actionBy": "تم بواسطة",
+      "actionDate": "تاريخ الإجراء"
+    },
+    "messages": {
+      "created": "تم إرسال طلب الوقت الإضافي بنجاح",
+      "updated": "تم تعديل الطلب بنجاح",
+      "withdrawn": "تم التراجع عن الطلب بنجاح",
+      "canceled": "تم إلغاء الطلب بنجاح"
+    }
+  },
+  "missingPunchRequests": {
+    "entityName": "طلب نسيان بصمة",
+    "title": "نسيان البصمة",
+    "addRequest": "طلب نسيان بصمة",
+    "searchTitle": "فلتر البحث",
+    "listTitle": "سجل طلبات نسيان البصمة",
+    "empty": "لا توجد طلبات نسيان بصمة حتى الآن.",
+    "export": "تصدير",
+    "print": "طباعة",
+    "fields": {
+      "employeeName": "اسم الموظف",
+      "createdBy": "أُنشئ بواسطة",
+      "date": "التاريخ",
+      "checkIn": "وقت الدخول المعدل",
+      "checkOut": "وقت الخروج المعدل",
+      "originalCheckIn": "وقت الدخول الأصلي",
+      "originalCheckOut": "وقت الخروج الأصلي",
+      "status": "الحالة",
+      "reason": "السبب",
+      "actions": "الإجراءات"
+    },
+    "placeholders": {
+      "selectEmployee": "اسم الموظف",
+      "date": "التاريخ",
+      "reason": "أدخل سبب",
+      "searchEmployee": "اسم او رقم الموظف",
+      "selectDateRange": "حدد الفترة الزمنية",
+      "status": "الحالة"
+    },
+    "status": {
+      "pending": "قيد المراجعة",
+      "approved": "تمت الموافقة",
+      "rejected": "مرفوض",
+      "withdrawn": "تم التراجع"
+    },
+    "modals": {
+      "addTitle": "طلب نسيان بصمة",
+      "viewTitle": "عرض تفاصيل طلب نسيان بصمة",
+      "withdrawTitle": "تراجع عن الطلب",
+      "withdraw": "تراجع",
+      "approve": "اعتماد",
+      "reject": "رفض",
+      "editTitle": "تعديل طلب نسيان بصمة",
+      "withdrawMessage": "هل أنت متأكد من التراجع عن هذا الطلب؟",
+      "rejectTitle": "سبب الرفض",
+      "workflow": "سير الطلب",
+      "action": "الإجراء",
+      "actionBy": "تم بواسطة",
+      "actionDate": "تاريخ الإجراء"
+    },
+    "messages": {
+      "created": "تم إرسال طلب نسيان البصمة بنجاح",
+      "updated": "تم تعديل الطلب بنجاح",
+      "withdrawn": "تم التراجع عن الطلب بنجاح",
+      "approved": "تمت الموافقة على الطلب بنجاح",
+      "rejected": "تم رفض الطلب بنجاح",
+      "cannotEditPastMonth": "لا يمكن تعديل بصمة بتاريخ بشهر سابق"
+    },
+    "validation": {
+      "atLeastOneTime": "يجب إدخال وقت الدخول أو وقت الخروج على الأقل"
+    }
+  },
+  "externalMissions": {
+    "entityName": "مهمة خارجية",
+    "title": "طلبات التفويض",
+    "addRequest": "تسجيل مهمة خارجية",
+    "searchTitle": "فلتر البحث",
+    "listTitle": "سجل المهمات الخارجية",
+    "empty": "لا توجد مهمات خارجية حتى الآن.",
+    "export": "تصدير",
+    "print": "طباعة",
+    "fields": {
+      "employeeName": "اسم الموظف",
+      "createdBy": "أُنشئ بواسطة",
+      "title": "عنوان المهمة",
+      "fromDate": "من تاريخ",
+      "toDate": "إلى تاريخ",
+      "totalDays": "عدد الأيام",
+      "address": "موقع المهمة",
+      "description": "الوصف",
+      "status": "الحالة",
+      "actions": "الإجراءات",
+      "createdAt": "تاريخ الإنشاء"
+    },
+    "placeholders": {
+      "selectEmployee": "اسم الموظف",
+      "searchEmployee": "اسم او رقم الموظف",
+      "date": "التاريخ",
+      "selectDateRange": "حدد الفترة الزمنية",
+      "status": "الحالة",
+      "title": "عنوان المهمة",
+      "address": "موقع المهمة",
+      "description": "ادخل الوصف"
+    },
+    "status": {
+      "assigned": "مسندة",
+      "pending": "مسندة",
+      "approved": "تمت الموافقة",
+      "withdrawn": "تم التراجع",
+      "cancelled": "تم التراجع"
+    },
+    "modals": {
+      "addTitle": "تسجيل مهمة خارجية لموظف",
+      "viewTitle": "عرض تفاصيل مهمة خارجية",
+      "editTitle": "تعديل مهمة خارجية",
+      "withdrawTitle": "تراجع عن الطلب",
+      "withdraw": "تراجع",
+      "approve": "اعتماد",
+      "reject": "رفض",
+      "workflow": "سير الطلب",
+      "action": "الإجراء",
+      "actionBy": "تم بواسطة",
+      "actionDate": "تاريخ الاجراء",
+      "withdrawMessage": "هل أنت متأكد من التراجع عن هذا الطلب؟",
+      "daysHint": "يتم احتساب عدد الأيام تلقائيًا حسب جدول عمل الموظف مع استبعاد أيام الراحة."
+    },
+    "messages": {
+      "created": "تم تسجيل المهمة بنجاح",
+      "updated": "تم تعديل المهمة بنجاح",
+      "withdrawn": "تم التراجع عن المهمة بنجاح",
+      "approved": "تم اعتماد المهمة بنجاح",
+      "rejected": "تم رفض المهمة بنجاح",
+      "calculateDaysError": "حدث خطأ أثناء احتساب الأيام"
+    }
+  },
+  "leaveRequests": {
+    "entityName": "إجازة",
+    "title": "الإجازات والأذونات",
+    "addRequest": "طلب إجازة",
+    "searchTitle": "فلتر البحث",
+    "listTitle": "سجل طلبات الإجازات",
+    "balanceTitle": "رصيد الإجازات",
+    "empty": "لا توجد طلبات إجازة حتى الآن.",
+    "export": "تصدير",
+    "print": "طباعة",
+    "balance": {
+      "usage": "الاستخدام",
+      "used": "المستهلك",
+      "remaining": "الرصيد المتبقي",
+      "total": "المستحق",
+      "days": "يوم",
+      "summary": "ملخص رصيد الإجازات",
+      "approvedUsed": "المستخدم المعتمد",
+      "duration": "المدة"
+    },
+    "fields": {
+      "employeeName": "اسم أو رقم الموظف",
+      "employeeNumber": "رقم الموظف",
+      "leaveType": "نوع الإجازة",
+      "fromDate": "من تاريخ",
+      "toDate": "إلى تاريخ",
+      "duration": "عدد الأيام",
+      "status": "الحالة",
+      "reason": "السبب",
+      "actions": "الإجراءات",
+      "createdBy": "أُنشئ بواسطة",
+      "approvedBy": "تم الاعتماد بواسطة",
+      "approvedAt": "تاريخ الاعتماد",
+      "rejectionReason": "سبب الرفض"
+    },
+    "placeholders": {
+      "selectEmployee": "اسم الموظف",
+      "searchEmployee": "اسم أو رقم الموظف",
+      "selectLeaveType": "نوع الإجازة",
+      "date": "التاريخ",
+      "selectDateRange": "حدد الفترة الزمنية",
+      "status": "الحالة",
+      "reason": "ادخل السبب"
+    },
+    "status": {
+      "pending": "قيد المراجعة",
+      "approved": "تمت الموافقة",
+      "rejected": "مرفوض",
+      "withdrawn": "تم التراجع",
+      "cancelled": "ملغى"
+    },
+    "modals": {
+      "addTitle": "طلب إجازة",
+      "viewTitle": "عرض تفاصيل طلب الإجازة",
+      "editTitle": "تعديل طلب إجازة",
+      "withdrawTitle": "سحب الطلب",
+      "approveTitle": "اعتماد الطلب",
+      "rejectTitle": "رفض الطلب",
+      "withdraw": "تراجع",
+      "approve": "اعتماد",
+      "reject": "رفض",
+      "withdrawConfirm": "هل أنت متأكد من سحب هذا الطلب؟",
+      "approveConfirm": "هل أنت متأكد من اعتماد هذا الطلب؟",
+      "rejectPlaceholder": "أدخل سبب الرفض...",
+      "workflow": "سير الطلب",
+      "action": "الإجراء",
+      "actionBy": "تم بواسطة",
+      "actionDate": "تاريخ الاجراء",
+      "daysHint": "يتم احتساب هذه الأيام تلقائيًا حسب جدول عمل الموظف مع استبعاد أيام الراحة."
+    },
+    "messages": {
+      "created": "تم إرسال طلب الإجازة بنجاح",
+      "updated": "تم تعديل طلب الإجازة بنجاح",
+      "withdrawn": "تم سحب طلب الإجازة بنجاح",
+      "approved": "تم اعتماد طلب الإجازة بنجاح",
+      "rejected": "تم رفض طلب الإجازة بنجاح",
+      "balanceInsufficient": "الرصيد غير كافي",
+      "toDateAfterFrom": "يجب أن يكون تاريخ الانتهاء بعد تاريخ البدء",
+      "durationError": "يجب أن تكون المدة يوم واحد على الأقل"
+    },
+    "tabs": {
+      "leaves": "الإجازات",
+      "permissions": "الأذونات"
+    }
+  },
+  "permissionRequests": {
+    "entityName": "إذن",
+    "title": "طلب إذن",
+    "addRequest": "طلب إذن",
+    "searchTitle": "فلتر البحث",
+    "listTitle": "سجل طلبات الأذونات",
+    "balanceTitle": "رصيد الأذونات",
+    "monthlyBalance": "الأذونات الشهرية",
+    "positiveBalance": "الرصيد الإيجابي",
+    "empty": "لا توجد طلبات أذونات حتى الآن.",
+    "export": "تصدير",
+    "print": "طباعة",
+    "balance": {
+      "usage": "الاستخدام",
+      "used": "المستهلك",
+      "remaining": "الرصيد المتبقي",
+      "maxMonthly": "الرصيد المتاح شهرياً",
+      "maxDaily": "الحد الأقصى اليومي",
+      "total": "المستحق",
+      "minutes": "دقيقة",
+      "hours": "ساعة",
+      "duration": "المدة"
+    },
+    "fields": {
+      "employeeName": "اسم الموظف",
+      "employeeNumber": "رقم الموظف",
+      "date": "التاريخ",
+      "fromTime": "من وقت",
+      "toTime": "إلى وقت",
+      "duration": "المدة",
+      "status": "الحالة",
+      "reason": "السبب",
+      "actions": "الإجراءات",
+      "createdBy": "أُنشئ بواسطة",
+      "approvedBy": "تم الاعتماد بواسطة",
+      "approvedAt": "تاريخ الاعتماد",
+      "rejectionReason": "سبب الرفض"
+    },
+    "placeholders": {
+      "selectEmployee": "اسم الموظف",
+      "searchEmployee": "اسم او رقم الموظف",
+      "date": "التاريخ",
+      "fromTime": "من وقت",
+      "toTime": "إلى وقت",
+      "duration": "المدة",
+      "status": "الحالة",
+      "reason": "ادخل سبب طلب الإذن"
+    },
+    "status": {
+      "pending": "قيد المراجعة",
+      "approved": "تمت الموافقة",
+      "rejected": "مرفوض",
+      "withdrawn": "تم التراجع",
+      "cancelled": "تم التراجع"
+    },
+    "modals": {
+      "addTitle": "طلب إذن",
+      "viewTitle": "عرض تفاصيل طلب الإذن",
+      "editTitle": "تعديل طلب إذن",
+      "withdrawTitle": "سحب الطلب",
+      "approveTitle": "اعتماد الطلب",
+      "rejectTitle": "رفض الطلب",
+      "withdraw": "تراجع",
+      "approve": "اعتماد",
+      "reject": "رفض",
+      "currentBalanceHint": "رصيد الأذونات الشهرية الحالي : {balance}",
+      "withdrawConfirm": "هل أنت متأكد من سحب هذا الطلب؟",
+      "approveConfirm": "هل أنت متأكد من اعتماد هذا الطلب؟",
+      "rejectPlaceholder": "أدخل سبب الرفض...",
+      "workflow": "سير الطلب",
+      "action": "الإجراء",
+      "actionBy": "تم بواسطة",
+      "actionDate": "تاريخ الاجراء",
+      "exceedsBalanceWarning": "تنبيه: ساعات الإذن المطلوبة تتجاوز رصيد الأذونات المتبقي للموظف."
+    },
+    "messages": {
+      "created": "تم إرسال طلب الإذن بنجاح",
+      "updated": "تم تعديل طلب الإذن بنجاح",
+      "withdrawn": "تم سحب طلب الإذن بنجاح",
+      "approved": "تم اعتماد طلب الإذن بنجاح",
+      "rejected": "تم رفض طلب الإذن بنجاح",
+      "insufficientBalance": "رصيد الأذونات غير كافي",
+      "overlapError": "يوجد تعارض في التوقيت مع أذونات أخرى",
+      "shiftError": "يجب أن يكون وقت الإذن ضمن ساعات العمل الرسمية للمقاطعة",
+      "durationError": "يجب أن تكون المدة أكبر من صفر",
+      "toTimeAfterFrom": "يجب أن يكون وقت النهاية بعد وقت البداية",
+      "finalizedMonthError": "لا يمكن إجراء عمليات على أشهر تم تقفيلها"
+    }
+  },
+  "supportComplaints": {
+    "title": "المذكرات الداخليه",
+    "add_complaint": "إضافة مذكرة",
+    "empty": "لا يوجد مذكرات",
+    "entityName": "المذكرة",
+    "statistics": {
+      "total": "إجمالي المذكرات",
+      "posted": "مذكرات منشورة",
+      "drafted": "مسودات",
+      "expired": "منتهية"
+    },
+    "search": {
+      "title": "فلتر البحث",
+      "placeholder": "ابحث بالاسم، الموضوع، أو رقم المذكرة...",
+      "complaints": "البحث في المذكرات",
+      "date": "تاريخ النشر",
+      "post_status": "حالة النشر",
+      "complaint_status": "حالة المذكرة",
+      "classification": "التصنيف"
+    },
+    "memosList": {
+      "title": "قائمة المذكرات",
+      "memo_number": "رقم المذكرة",
+      "publisher": "الناشر",
+      "manager": "الإدارة / القسم",
+      "subject": "الموضوع",
+      "data": "تاريخ النشر",
+      "category": "التصنيف",
+      "publish_status": "حالة النشر",
+      "memo_status": "حالة المذكرة",
+      "actions": "الإجراءات"
+    },
+    "status": {
+      "pending": "قيد المراجعة",
+      "posted": "تم النشر",
+      "draft": "مسودة",
+      "expired": "منتهية",
+      "active": "مفعل",
+      "inactive": "غير مفعل",
+      "published": "تم النشر",
+      "unpublished": "تم الغاء النشر"
+    },
+    "messages": {
+      "activated": "تم تفعيل المذكرة بنجاح",
+      "deactivated": "تم الغاء تفعيل المذكرة بنجاح",
+      "published": "تم نشر المذكرة بنجاح",
+      "unpublished": "تم الغاء نشر المذكرة بنجاح",
+      "deleted": "تم حذف المذكرة بـنجاح",
+      "unDeleted": "فشل حذف المذكرة "
+    },
+    "modals": {
+      "publish": "نشر",
+      "delete": "حذف"
+    }
+  },
+  "memoPage": {
+    "title": "عرض تفاصيل المذكرة",
+    "memo_number": "رقم المذكرة",
+    "publisher": "إسم الناشر",
+    "subject": "موضوع المذكرة",
+    "publish_date": "تاريخ النشر",
+    "category": "تصنيف التعميم",
+    "publish_status": "حالة النشر",
+    "memo_status": "حالة المذكرة",
+    "memo_content": "محتوي المذكرة",
+    "expiry_date": "تاريخ الانتهاء",
+    "department": "الإدارة / القسم",
+    "attachments": "المرفقات"
+  },
+  "add_memo": {
+    "title": "إضافة مذكرة",
+    "edit": "تعديل مذكرة ",
+    "fields": {
+      "memoSubject": "موضوع المذكرة",
+      "memoContent": "محتوى المذكرة",
+      "classification": "التصنيف",
+      "entityNameCode": "اسم أو رمز الجهة",
+      "department": "الإدارة أو القسم",
+      "expiryDate": "تاريخ الانتهاء",
+      "publish_date": "تاريخ النشر",
+      "takeAction": "إتخاذ إجراء",
+      "actionTaken": "الإجراء",
+      "attachments": "المرفقات"
+    },
+    "placeholders": {
+      "memoSubject": "أدخل موضوع المذكرة",
+      "memoContent": "أدخل محتوى المذكرة",
+      "selectClassification": "اختر التصنيف",
+      "entityNameCode": "أدخل اسم أو رمز الجهة",
+      "selectDepartment": "اختر الإدارة أو القسم",
+      "selectExpiryDate": "اختر تاريخ الانتهاء",
+      "selectPublishDate": "اختر تاريخ النشر",
+      "selectAction": "اختر الإجراء"
+    },
+    "options": {
+      "action": {
+        "confirm": "تأكيد",
+        "upload_file": "رفع ملف"
+      }
+    }
+  },
+  "profile": {
+    "title": "الملف الشخصي",
+    "personalInfo": {
+      "title": "البيانات الشخصية",
+      "jobTitlePlaceholder": "المسمى الوظيفي",
+      "status": {
+        "active": "نشط",
+        "inactive": "غير نشط"
+      }
+    },
+    "attendance": {
+      "title": "ملخص الدوام",
+      "presence_days": "أيام الحضور",
+      "absence_days": "أيام الغياب",
+      "consumed_leaves": "الإجازات المستهلكة",
+      "late_minutes": "دقائق التأخير",
+      "positive_balance": "الرصيد الإيجابي"
+    },
+    "leaveBalance": {
+      "title": "رصيد الإجازات",
+      "usage": "الاستخدام",
+      "remaining": "الرصيد المتبقي",
+      "consumed": "المستهلك",
+      "day": "يوم"
+    },
+    "events": {
+      "title": "الأحداث",
+      "view_all": "عرض الجميع",
+      "empty": "لا يوجد أحداث جديدة حتي الآن"
+    },
+    "activityLog": {
+      "title": "سجل الأنشطة الأخيرة",
+      "view_all": "عرض الجميع",
+      "empty": "لا يوجد أنشطة حديثة حتي الآن"
+    },
+    "validation": {
+      "image": {
+        "required": "الصورة مطلوبة",
+        "invalid_type": "يجب رفع ملف من نوع صورة فقط",
+        "max_size": "يجب أن يكون حجم الصورة أقل من 2 ميجابايت"
+      },
+      "success": "تم تغيير صورة البروفايل بـنجاح"
+    }
+  },
+  "performance": {
+    "add_charter": "تعيين ميثاق أداء",
+    "empty": "لا يوجد مواثيق حتي الآن",
+    "entityName": "ميثاق",
+    "statistics": {
+      "title": "إحصائيات مواثيق الأداء",
+      "total": "إجمالي مواثيق الأداء",
+      "draft": "مواثيق مسوده",
+      "accept": "مواثيق مقبولة",
+      "refused": "مواثيق مرفوضة",
+      "pending": "مواثيق قيد الإنتظار"
+    },
+    "search": {
+      "title": "فلتر البحث",
+      "placeholder": "ابحث بالاسم، الموضوع، أو رقم الميثاق...",
+      "employee": "اسم الموظف",
+      "charters": "البحث في المواثيق",
+      "charter_type": "نوع الميثاق",
+      "charter_status": "الحالة",
+      "charter_date": "تاريخ آخر تعديل"
+    },
+    "chartersList": {
+      "index": "#",
+      "employee": "اسم الموظف",
+      "job_title": "المسمى الوظيفي",
+      "last_edit_date": "تاريخ آخر تعديل",
+      "charter_type": "نوع الميثاق",
+      "charter_status": "حالة الميثاق",
+      "actions": "الإجراءات",
+      "year": "العام"
+    },
+    "messages": {
+      "exported": "تم تصدير الميثاق بـنجاح",
+      "sent": "تم إرسال الميثاق  بـنجاح",
+      "confirmSendTo": "تأكيد إرسال ميثاق لـ : {name}",
+      "accepted": "تم اعتماد الميثاق بـنجاح",
+      "rejected": "تم رفض الميثاق بـنجاح",
+      "sentAll": "تم إرسال المواثيق بـنجاح",
+      "acceptAll": "تم اعتماد المواثيق بـنجاح",
+      "rejectAll": "تم رفض المواثيق بـنجاح"
+    },
+    "export": {
+      "title": "تصدير ميثاق",
+      "content": "تصدير ميثاق : {name}"
+    },
+    "modals": {
+      "accept": "اعتماد",
+      "reject": "رفض",
+      "send": "إرسال",
+      "reason": "السبب",
+      "rejectPlaceholder": "ادخل سبب الرفض...",
+      "rejectValidation": "سبب الرفض مطلوب"
+    },
+    "stepper": {
+      "targets": "الأهداف",
+      "competencies": "الجدارات",
+      "review": "المراجعة"
+    },
+    "form": {
+      "employee": "الموظف",
+      "job_title": "المسمى الوظيفي",
+      "employee_number": "الرقم الوظيفي",
+      "agency": "الوكالة",
+      "department": "القسم",
+      "assessor": "المدير المقيم",
+      "target_name": "اسم الهدف",
+      "measurement_standard": "معيار القياس",
+      "weight": "الوزن النسبي",
+      "expected_results": "الناتج المستهدف",
+      "competency": "الجدارة",
+      "behavioral_description": "الوصف السلوكي للجدارات",
+      "actual_level": "المستوى الفعلي",
+      "expected_level": "المستوى المستهدف",
+      "final_evaluation": "التقييم النهائي",
+      "required_level": "اختر مستوى الجدارة المطلوب",
+      "desc_level": "مستوى الجدارة المطلوب",
+      "total_weight": "مجموع الاوزان",
+      "next": "التالي",
+      "previous": "السابق",
+      "save": "حفظ",
+      "submit": "إرسال",
+      "signatures": "التوقيعات",
+      "date": "التاريخ",
+      "seal": "الختم",
+      "employee_signature": "توقيع الموظف",
+      "assessor_signature": "توقيع المدير المباشر",
+      "hr_signature": "توقيع مدير عام الموارد البشرية",
+      "higher_admin_signature": "توقيع سعادة الأمين",
+      "manager_signature": "توقيع المدير المقيم",
+      "weight_hint_100": "يجب أن يكون مجموع الوزن النسبي 100%.",
+      "weight_error_100": "مجموع الأوزان يجب أن يكون 100%",
+      "hint": "نص تلميحي",
+      "placeholder": "نص تلميحي",
+      "total_weight_label": "مجموع الوزن النسبي",
+      "charter_supervisory": "ميثاق الأداء لوظيفة إشرافية",
+      "charter_supervisory_breadcrumb": "تعيين ميثاق الأداء",
+      "summary_standard": "ملخص",
+      "reports_standard": "تقارير",
+      "add_competency": "إضافة جدارة",
+      "add_description": "وصف سلوكي جديد",
+      "assign_hint_title": "تعيين ميثاق أداء",
+      "assign_hint_desc": "سيتم تعيين هذا الميثاق للموظفين المختارين.",
+      "assign_charter": "تعيين ميثاق",
+      "select_employees": "اختيار الموظفين",
+      "add_target_name_placeholder": "أدخل اسم الهدف",
+      "add_expected_results_placeholder": "أدخل الناتج المستهدف",
+      "add_weight_placeholder": "أدخل الوزن",
+      "add_competency_placeholder": "أدخل اسم الجدارة",
+      "competency_name": "اسم الجدارة",
+      "competency_required": "يجب إضافة جدارة واحدة على الأقل",
+      "behavioral_description_min_2": "يجب إضافة وصفين سلوكيين على الأقل",
+      "employee_required": "يجب اختيار موظف"
+    },
+    "types": {
+      "standard": "تنفيذي",
+      "managerial": "إشرافي"
+    },
+    "statusOptions": {
+      "draft": "مسودة",
+      "pending_employee": "قيد مراجعة الموظف",
+      "pending_hr": "قيد مراجعة الموارد البشرية",
+      "pending_higher_admin": "بانتظار الإدارة العليا",
+      "accepted": "معتمد",
+      "rejected": "مرفوض",
+      "archived": "مؤرشف"
+    }
+  },
+  "evaluation": {
+    "entityName": "نموذج التقييم",
+    "evaluationName": "نموذج",
+    "add_evaluation": "إضافة نموذج",
+    "empty": "لا توجد نماذج تقييم",
+    "notStandard": {
+      "title": "نموذج التقدير العام لأداء الموظف علي الوظيفة الغير اشرافية"
+    },
+    "statistics": {
+      "title": "إحصائيات نماذج التقييم",
+      "total": "إجمالي نماذج التقييم",
+      "draft": "نماذج مسودة",
+      "accept": "نماذج مقبولة",
+      "refused": "نماذج مرفوضة",
+      "pending": "نماذج قيد الانتظار"
+    },
+    "form": {
+      "expected_result": "الناتج المستهدف",
+      "actual_result": "الناتج الفعلي",
+      "difference": "الفرق بين الناتجين",
+      "score": "التقدير (النتيجة)",
+
+      "total_targets_weight": "مجموع الوزن النسبي للأهداف",
+      "total_targets_score": "إجمالي التقدير الموزون للأهداف",
+
+      "total_competencies_weight": "مجموع الوزن النسبي للجدارات",
+      "total_competencies_score": "إجمالي التقدير الموزون للجدارات",
+
+      "overall_score_label": "التقدير العام لأداء الموظف",
+
+      "supervisory_title": "نموذج تقييم أداء لوظيفة إشرافية",
+      "non_supervisory_title": "نموذج تقييم أداء لوظيفة غير إشرافية",
+
+      "competency_level": "اختر الرقم"
+    },
+    "evaluation_form": {
+      "evaluation_type": "دورة التقييم",
+      "annual": "سنوي",
+      "semi_annual": "مراجعة نصف سنوية",
+      "eligibility": "الاستحقاق للترقية",
+      "eligible": "يستحق",
+      "not_eligible": "لا يستحق",
+      "in_probation": "في فترة التجربة",
+      "period_from": "من",
+      "period_to": "إلى",
+      "evaluation_date": "تاريخ التقييم",
+      "fill_instructions": "تعليمات تعبئة النموذج",
+      "employee_performance_table": "تقدير الأداء العام للموظف",
+      "col_grade": "التقدير",
+      "col_description": "البيان",
+      "col_score": "الدرجات",
+      "col_additional_notes": "الواقع الاجتماعي",
+      "placeholder_score": "نص تلميحي",
+      "placeholder_notes": "نص تلميحي",
+      "gap_strengths": "نقاط القوة",
+      "gap_development": "النقاط التي تحتاج الى تطوير",
+      "col_reasons": "المبررات",
+      "col_documents": "الوثائق الداعمه",
+      "notes": "الملاحظات",
+      "placeholder_reasons": "نص تلميحي",
+      "grades": {
+        "1": "غير مرضي",
+        "2": "مرضي",
+        "3": "جيد",
+        "4": "جيد جداً",
+        "5": "ممتاز"
+      },
+      "instructions": {
+        "title": "تعليمات تعبئة النموذج",
+        "cancel": "الغاء",
+        "step1": "تأكد من تعبئة جميع الحقول في هذا النموذج.",
+        "step2": "راجع الوصف التفصيلي لمقياس الاهداف و الجدارات.",
+        "step3": "اذكر مبررات حصول الموظف على \"ممتاز\" او \"غير مرضي\" فقط و ارفق الوثائق الداعمة لها."
+      },
+      "placeholder_gap": "نص تلميحي",
+      "remarks": "الملاحظات",
+      "placeholder_remarks": "النص المُدخل",
+      "approve": "اعتماد",
+      "reject": "رفض",
+      "expected_result": "الناتج المستهدف",
+      "actual_result": "الناتج الفعلي",
+      "difference": "الفرق بين الناتجين",
+      "score": "التقدير (النتيجة)",
+      "total_targets_score": "إجمالي التقدير الموزون",
+      "total_competencies_score": "إجمالي التقدير الموزون",
+      "total_targets_weight": "مجموع الوزن النسبي للأهداف",
+      "total_competencies_weight": "مجموع الوزن النسبي للجدارات",
+      "overall_score_label": "التقدير العام لأداء الموظف",
+      "supervisory_title": "نموذج تقييم أداء لوظيفة إشرافية",
+      "non_supervisory_title": "نموذج تقييم أداء لوظيفة غير إشرافية",
+      "competency_level": "اختر الرقم",
+      "signatures": {
+        "title": "التوقيعات",
+        "employee": "توقيع الموظف",
+        "manager": "توقيع المدير القيم",
+        "hr": "توقيع مدير عام الموارد البشرية"
+      }
+    },
+    "validation": {
+      "revision_type": "نوع التقييم مطلوب",
+      "readiness": "حالة الاستحقاق مطلوبة",
+      "period_from": "تاريخ البداية مطلوب",
+      "period_to": "تاريخ النهاية مطلوب",
+      "evaluation_date": "تاريخ التقييم مطلوب",
+      "manager_note": "الملاحظات مطلوبة",
+      "grades": "يجب إدخال جميع الدرجات",
+      "justification": "يجب إدخال جميع المبررات",
+      "supporting_document": "يجب إدخال جميع الوثائق الداعمة",
+      "strengths": "يجب إدخال جميع نقاط القوة",
+      "development": "يجب إدخال جميع نقاط التطوير"
+    },
+    "search": {
+      "title": "فلتر البحث",
+      "placeholder": "ابحث بالاسم، الموضوع، أو رقم النموذج",
+      "charters": "البحث في النماذج",
+      "employee": "اسم الموظف",
+      "charter_type": "نوع النموذج",
+      "charter_status": "الحالة",
+      "charter_date": "تاريخ آخر تعديل",
+      "year": "العام"
+    },
+    "chartersList": {
+      "employee": "اسم الموظف",
+      "job_title": "المسمى الوظيفي",
+      "last_edit_date": "تاريخ آخر تعديل",
+      "charter_type": "نوع النموذج",
+      "charter_status": "حالة الميثاق",
+      "year": "العام",
+      "actions": "الإجراءات",
+      "total": "المجموع"
+    },
+    "stepper": {
+      "targets": "الأهداف",
+      "competencies": "الجدارات",
+      "review": "المراجعة"
+    },
+    "modals": {
+      "accept": "اعتماد",
+      "reject": "رفض",
+      "send": "إرسال",
+      "evaluate": "تقييم",
+      "rejectTitle": "تأكيد رفض النموذج",
+      "rejectDescription": "يرجى إدخال سبب الرفض. سيؤدي الرفض إلى إغلاق دورة التقييم لهذا النموذج.",
+      "rejectReason": "سبب الرفض",
+      "rejectReasonPlaceholder": "أدخل سبب الرفض هنا..."
+    },
+    "messages": {
+      "sent": "تم إرسال التقييم بنجاح",
+      "error": "حدث خطأ ما",
+      "accepted": "تم اعتماد النموذج بنجاح",
+      "rejected": "تم رفض النموذج",
+      "acceptAll": "تم اعتماد النماذج بـنجاح",
+      "rejectAll": "تم رفض النماذج بـنجاح",
+      "reasonRequired": "سبب الرفض مطلوب",
+      "exported": "تم تصدير النموذج بـنجاح"
+    },
+    "export": {
+      "title": "تصدير {target}",
+      "content": "تصدير {target} للموظف {name}"
+    },
+    "statuses": {
+      "accepted": "تمت الموافقة",
+      "draft": "مسودة",
+      "pending_employee": "في انتظار الامين",
+      "pending_higher_admin": "في انتظار مسؤول الموارد البشرية",
+      "accepted_by_employee": "تمت الموافقة بواسطة الموظف",
+      "rejected": "مرفوض"
+    },
+    "types": {
+      "standard": "تنفيذي",
+      "managerial": "إشرافي"
+    },
+    "statusOptions": {
+      "draft": "مسودة",
+      "pending_employee": "قيد مراجعة الموظف",
+      "pending_admin": "قيد مراجعة الإدارة",
+      "accepted": "مقبول",
+      "rejected": "مرفوض",
+      "archived": "مؤرشف"
+    },
+    "bulk": {
+      "accept": "اعتماد ({count})",
+      "reject": "رفض ({count})",
+      "send": "إرسال ({count})"
+    }
+  },
+  "appraisal": {
+    "statistics": {
+      "title": "إحصائيات  نماذج التقييم العام"
+    }
+  },
+  "contact": {
+    "title": "رسائل التواصل",
+    "add_message": "أضف رسالتك",
+    "messages": "الرسائل",
+    "entityName": "رسالة",
+    "empty": "لا توجد رسائل",
+    "statistics": {
+      "total": "إجمالي الرسائل",
+      "new": "رسائل جديدة",
+      "in_progress": "قيد المعالجة",
+      "done": "تم الحل"
+    },
+    "search": {
+      "title": "فلتر البحث",
+      "label": "البحث في المراسلات",
+      "placeholder": "ابحث بالاسم، الموضوع، أو رقم المراسلة...",
+      "status": "الحالة",
+      "priority": "الأولوية"
+    },
+    "list": {
+      "title": "قائمة الرسائل",
+      "message_number": "رقم الرسالة",
+      "sender": "المرسل",
+      "email": "البريد الإلكتروني",
+      "subject": "الموضوع",
+      "date": "التاريخ",
+      "status": "الحالة",
+      "priority": "الأولوية",
+      "actions": "الإجراءات"
+    },
+    "status": {
+      "new": "جديدة",
+      "in_progress": "قيد المعالجة",
+      "done": "تم الحل"
+    },
+    "priority": {
+      "high": "مرتفعة",
+      "medium": "متوسطة",
+      "low": "منخفضة"
+    },
+    "confirmPopup": {
+      "title": "هل أنت متأكد أنك تريد تعيين هذه الرسالة كمغلقة؟",
+      "confirm": "إغلاق كمحلولة",
+      "cancel": "إلغاء"
+    }
+  },
+  "contactView": {
+    "title": "عرض تفاصيل الرسالة",
+    "message_details": "تفاصيل الرسالة",
+    "ref_number": "الرقم المرجعي ",
+    "sender_name": "اسم المرسل",
+    "department": "الإدارة / القسم",
+    "contact": "التواصل",
+    "content": "المحتوى",
+    "attachments": "المرفقات",
+    "attachment_name": "اسم الملف.csv",
+    "close_solution": "إغلاق كتم الحل",
+    "closed_success": "تم إغلاق الرسالة وتحديد حالتها كمحلولة"
+  },
+  "add_message": {
+    "text": "تواصل مع فريقنا وسنقوم بالرد عليك في أقرب وقت.",
+
+    "contacts": {
+      "address": "عنوان المكتب",
+      "phone": "الجوال",
+      "email": "البريد الإلكتروني",
+      "working_hours": "ساعات العمل"
+    },
+
+    "fields": {
+      "name": "الاسم الكامل",
+      "email": "البريد الإلكتروني",
+      "subject": "الموضوع",
+      "message": "الرسالة",
+      "priority": "الأولوية",
+      "attachments": "المرفقات",
+      "submit": "إرسال الرسالة"
+    },
+
+    "priority": {
+      "low": "منخفضة",
+      "medium": "متوسطة",
+      "high": "مرتفعة"
+    },
+
+    "validation": {
+      "required": " مطلوب",
+      "min_3": "يجب ألا يقل عن 3 أحرف",
+      "invalid_email": "البريد الإلكتروني غير صالح",
+      "invalidFileType": "نوع الملف غير مدعوم",
+      "fileTooLarge": "حجم الملف كبير جداً (الحد الأقصى 5MB)",
+      "nameRequired": "الاسم مطلوب",
+      "nameMin": "الاسم يجب أن يكون حرفين على الأقل",
+      "emailRequired": "البريد الإلكتروني مطلوب",
+      "emailInvalid": "البريد الإلكتروني غير صحيح",
+      "subjectRequired": "الموضوع مطلوب",
+      "messageRequired": "محتوى الرسالة مطلوب",
+      "priorityRequired": "الأولوية مطلوبة"
+    },
+
+    "success": "تم إرسال رسالتك بنجاح"
+  },
+  "scheduale": {
+    "title": "جدول الدوام الشهري",
+    "empty": "لا يوجد جدول دوام شهري حتي الآن",
+    "am": "ص",
+    "pm": "م",
+    "from": "من",
+    "to": "إلي",
+    "days": {
+      "sun": "الأحد",
+      "mon": "الاثنين",
+      "tue": "الثلاثاء",
+      "wed": "الأربعاء",
+      "thu": "الخميس",
+      "fri": "الجمعة",
+      "sat": "السبت"
+    },
+    "shifts": {
+      "leave": "إجازة",
+      "official_holiday": "إجازة رسمية",
+      "fixed_system": "نظام ثابت",
+      "external_mission": "مهمة خارجية",
+      "rest": "راحة",
+      "shift": "نظام وردية",
+      "morning": "فترة صباحية",
+      "evening": "فترة مسائية",
+      "night": "فترة ليلية"
+    }
+  }
+}

@@ -1,0 +1,2230 @@
+{
+  "app": {
+    "name": "Attendance"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "settings": "Settings",
+    "logout": "Logout",
+    "profile": "Profile",
+    "login": "Login"
+  },
+  "userNotifications": {
+    "title": "Notifications",
+    "unreadCount": "{count} unread",
+    "markAllRead": "Mark all as read",
+    "search": "Search in notifications",
+    "listTitle": "Notifications List",
+    "empty": "No notifications yet.",
+    "read": "Read",
+    "unread": "Unread",
+    "new_message": "New message received",
+    "time": {
+      "just_now": "Just now",
+      "minutes_ago": "{count} minutes ago",
+      "hours_ago": "{count} hours ago",
+      "days_ago": "{count} days ago"
+    },
+    "view_all": "View All"
+  },
+  "auth": {
+    "needHelp": "Need help?",
+    "title": "Sign in",
+    "email": "Email",
+    "password": "Password",
+    "signIn": "Sign in",
+    "signingIn": "Signing in…",
+    "signOut": "Sign out",
+    "welcomeText": "Please sign in with your account in Nafaz to verify your identity",
+    "emailPlaceholder": "Enter your email",
+    "loginSuccess": "Logged in successfully",
+    "twoFactor": {
+      "title": "Identity Verification",
+      "otpTitle": "Verification Code",
+      "otpInstruction": "Enter the 6-digit code.",
+      "otpConfirm": "Confirm",
+      "otpResendText": "Didn't receive the code?",
+      "otpResendAction": "Resend",
+      "otpSent": "Verification code has been resent successfully",
+      "otpResendTimer": "You can resend in {seconds} seconds",
+      "qrcodeTitle": "Identity Verification",
+      "qrcodeInstruction": "Open Microsoft Authenticator App and Scan QR Code",
+      "qrcodeLink": "Copy Account Information",
+      "qrcodeButton": "Scanned _ Enter verification code",
+      "invalidCode": "Invalid or expired verification code.",
+      "sessionLocked": "Session temporarily locked after 5 failed attempts. Please try again later.",
+      "accountDataTitle": "Account Data",
+      "accountName": "Account Name",
+      "secretKey": "Secret Key",
+      "openMicrosoftAuthenticator": "Open Microsoft Authenticator app",
+      "enterKeyManually": "Enter the key manually",
+      "enterKeyAutomatic": "Enter this key automatically to get the verification code",
+      "enterVerificationCode": "Enter Verification Code",
+      "copied": "Copied Successfully"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome back, {name}.",
+    "totalEmployees": "Total employees",
+    "checkedInToday": "Checked in today",
+    "lateArrivals": "Late arrivals",
+    "fromLastMonth": "From last month",
+    "fromYesterday": "From yesterday",
+    "recentActivity": "Recent Activity",
+    "employeeCheckedIn": "Employee checked in",
+    "checkedInAt": "checked in at",
+    "hoursAgo": "{count} hours ago",
+    "minutesAgo": "{count} minutes ago",
+    "summary_total_attendance": "Total Attendance",
+    "summary_total_absent": "Total Absent",
+    "summary_total_late": "Total Lateness",
+    "summary_total_overtime_workers": "Overtime Workers",
+    "summary_total_requests_pending": "Pending Requests",
+    "summary_total_pending": "Pending",
+    "attendance_summary": "Attendance Summary",
+    "requests_summary": "Recent Leave and Permission Requests",
+    "present": "Present",
+    "absent": "Absent",
+    "late": "Late",
+    "leaves": "Leaves",
+    "permissions": "Permissions",
+    "external_missions": "External Missions"
+  },
+  "attendance": {
+    "status": {
+      "present": "Present",
+      "absent": "Absent",
+      "late": "Late",
+      "leave": "Leave",
+      "holiday": "Holiday",
+      "mission": "Official Duty",
+      "rest_day": "Rest Day"
+    }
+  },
+  "requests": {
+    "types": {
+      "instant_attendance": "Instant Attendance",
+      "leave": "Leave",
+      "permission": "Permission",
+      "overtime": "Overtime",
+      "missing_punch": "Missing Punch"
+    },
+    "status": {
+      "pending": "Pending",
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "withdrawn": "Withdrawn",
+      "cancelled": "Cancelled"
+    }
+  },
+  "employeeDashboard": {
+    "summary": {
+      "working_days": "Working Days",
+      "working_hours": "Working Hours",
+      "leave_days": "Leave Balance",
+      "late_arrival_days": "Late Days",
+      "overtime_hours": "Overtime Hours",
+      "pending_requests": "Pending My Requests"
+    },
+    "charts": {
+      "attendance_breakdown": "Monthly Attendance Summary",
+      "weekly_hours": "Weekly Work Hours",
+      "weekly_hours_desc": "Analysis of weekly working hours"
+    },
+    "latest_requests": "Latest Requests",
+    "latest_checkins": "Latest Check-ins",
+    "view_all": "View All",
+    "view_all_requests": "View All Requests",
+    "status": {
+      "present": "Present",
+      "absent": "Absent",
+      "late": "Late",
+      "no_record": "No Record"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "general": "General",
+    "language": "Language",
+    "description": "Manage your application preferences and settings",
+    "generalTitle": "General Settings",
+    "tabs": {
+      "systemInfo": "System Information",
+      "languageTimezone": "Language & Time Zone"
+    },
+    "fields": {
+      "systemNameEn": "System Name in English",
+      "systemNameAr": "System Name in Arabic",
+      "phone": "Phone Number",
+      "email": "Email",
+      "location": "Location",
+      "website": "Website",
+      "defaultLanguage": "Default System Language",
+      "timezone": "Time Zone",
+      "logo": "Logo"
+    },
+    "placeholders": {
+      "systemNameEn": "System Name in English",
+      "systemNameAr": "System Name in Arabic",
+      "phone": "Phone Number",
+      "email": "Email",
+      "location": "Location",
+      "website": "Website",
+      "defaultLanguage": "Default System Language",
+      "timezone": "Time Zone"
+    },
+    "logoUpload": {
+      "dragDrop": "Drag and drop the logo here to upload",
+      "maxSizeHint": "Maximum allowed file size is 2 MB. Supported formats are jpg and png.",
+      "browseFiles": "Browse files"
+    },
+    "validation": {
+      "systemNameEnRequired": "System name in English is required",
+      "systemNameArRequired": "System name in Arabic is required",
+      "defaultLanguageRequired": "Default language is required",
+      "timezoneRequired": "Time zone is required"
+    },
+    "messages": {
+      "saved": "General settings have been saved successfully",
+      "error": "An error occurred while saving settings",
+      "logoRemoved": "Logo has been removed successfully"
+    }
+  },
+  "roles": {
+    "entityName": "Role",
+    "title": "Roles & Permissions",
+    "description": "Manage system roles and their assigned permissions",
+    "addRole": "Add new role",
+    "searchTitle": "Search filter",
+    "resetFilters": "Clear all",
+    "listTitle": "Roles list",
+    "empty": "No roles found yet.",
+    "emptyPermissions": "No permissions found for this role.",
+    "fields": {
+      "name": "Role name",
+      "nameEn": "Role name (EN)",
+      "nameAr": "Role name (AR)",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "placeholders": {
+      "name": "Enter role name",
+      "nameEn": "Enter English name",
+      "nameAr": "Enter Arabic name",
+      "status": "Select status"
+    },
+    "messages": {
+      "created": "Role added successfully",
+      "updated": "Role updated successfully",
+      "activated": "Role activated successfully",
+      "deactivated": "Role deactivated successfully",
+      "deleted": "Role deleted successfully",
+      "roleRetrieved": "Role retrieved successfully"
+    },
+    "statusOptions": {
+      "all": "All",
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "viewTitle": "View Role",
+    "roleDetails": "Role Details",
+    "view": "View",
+    "modals": {
+      "deleteTitle": "Delete role",
+      "deleteMessage": "Are you sure you want to delete this role?",
+      "deleteConfirm": "Delete role",
+      "cannotDeleteTitle": "Delete Role not allowed",
+      "cannotDeleteMessage": "The role cannot be deleted because it has existing transactions in the system.",
+      "cannotDeactivateTitle": "Deactivate Role not allowed",
+      "cannotDeactivateMessage": "The role cannot be deactivated because it has existing transactions in the system."
+    },
+    "createTitle": "Add new role",
+    "editTitle": "Edit role",
+    "formDescription": "Specify the role name and the permissions allowed for it.",
+    "basicInfo": "Role information",
+    "permissionsTitle": "Permissions list",
+    "permissionGroups": {
+      "general": "General",
+      "permissions": "Permissions",
+      "roles": "Roles"
+    },
+    "errors": {
+      "nameRequired": "Role name is required",
+      "minPermissions": "Select at least one permission",
+      "nameMin": "Role name must be at least 2 characters",
+      "nameMax": "Role name must not exceed 30 characters"
+    },
+    "selectAll": "Select all permissions for this role"
+  },
+  "common": {
+    "selectDate": "Select Date",
+    "selectTime": "Select Time",
+    "close": "Close",
+    "errors": {
+      "exportFailed": "Export failed"
+    },
+    "assign": "Assign Performance Charter",
+    "assignToEmployee": "Assign",
+    "year": "Year",
+    "send": "Send",
+    "next": "Next",
+    "previous": "Previous",
+    "reset": "Reset",
+    "confirm": "Confirm",
+    "view": "Show Details",
+    "sendRequest": "Send Request",
+    "noDataToPrint": "No data to print",
+    "noDataToExport": "No data to export",
+    "daily": "Daily",
+    "oneHour": "01 Hour",
+    "twoHours": "02 Hours",
+    "minutesLabel": "Minutes",
+    "monthly": "Monthly",
+    "month": "Month",
+    "day": "Day",
+    "day_singular": "Days",
+    "date": "Date",
+    "copy": "Copy",
+    "back": "Back",
+    "save": "Save",
+    "publish": "Publish",
+    "draftSave": "Save as Draft",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "update": "Update",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "search": "Search",
+    "saveAndSend": "Save & Send",
+    "uploadFile": "Drag and drop files here to upload or click to select",
+    "dragDropOrClick": "Drag and drop files here to upload",
+    "dragDropOrClickLogo": "Drag and drop logo here to upload",
+    "browseFiles": "Browse Files",
+    "filesHint": "The maximum allowed file size is 2 MB, and supported formats include .jpg and .png.",
+    "fileSizeHint": "The maximum allowed file size is 2 MB, and the maximum number of files is 5.",
+    "acceptedFormats": "Accepted formats",
+    "fileTooLarge": "File size exceeds maximum allowed size of {maxSize}",
+    "select": "Select",
+    "chooseLanguage": "Choose your preferred language",
+    "about": "About",
+    "ok": "OK",
+    "noResults": "No results found",
+    "noChanges": "No changes detected",
+    "required": "(Required)",
+    "no_results": "Currently no data is available to display. Please add the required content or interact with the system to update this page.",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "days": {
+      "sunday": "Sunday",
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday"
+    },
+    "actionTooltips": {
+      "view": {
+        "title": "View {target}",
+        "content": "View {target}: {name}"
+      },
+      "edit": {
+        "title": "Edit {target}",
+        "content": "Edit {target}: {name}"
+      },
+      "delete": {
+        "title": "Delete {target}",
+        "content": "Delete {target}: {name}"
+      },
+      "table": {
+        "title": "Schadule of {target}",
+        "content": "Schadule of {target}: {name}"
+      },
+      "withdraw": {
+        "title": "Withdraw {target}",
+        "content": "Withdraw {target}: {name}"
+      },
+      "approve": {
+        "title": "Approve {target}",
+        "content": "Approve {target}: {name}"
+      },
+      "reject": {
+        "title": "Reject {target}",
+        "content": "Reject {target}: {name}"
+      },
+      "evaluate": {
+        "title": "Evaluate {target}",
+        "content": "Evaluate {target}: {name}"
+      }
+    },
+    "total": "Total",
+    "printedBy": "Printed By",
+    "page": "Page",
+    "of": "of",
+    "export": "Export",
+    "export_pdf": "Export PDF",
+    "export_excel": "Export Excel",
+    "status": "Status",
+    "count": "Count",
+    "required_fields": "All Fields are Required",
+    "actions": "Actions",
+    "or": "or"
+  },
+  "validation": {
+    "emailInvalid": "Invalid email",
+    "emailRequired": "Email is required",
+    "phoneInvalid": "Invalid phone number. Enter digits only (at least 8 digits)",
+    "websiteInvalid": "Invalid website URL. Enter a valid URL (e.g. https://example.com, www.example.com, or facebook.com)",
+    "passwordMin": "Password must be at least 6 characters",
+    "passwordRequired": "Password is required",
+    "fieldRequired": "This field is required",
+    "minDays": "Please select at least one day",
+    "minShifts": "Please add at least one shift",
+    "nameRange": "Name must be between 2 and 30 characters",
+    "arabicOnly": "Arabic field should accept only Arabic characters, numbers and special characters",
+    "englishOnly": "English field should accept only English characters, numbers and special characters",
+    "atLeastOneChannel": "At least one notification channel must be selected.",
+    "nameMax255": "This field must not exceed 255 characters"
+  },
+  "employees": {
+    "entityName": "Employee",
+    "title": "Employees",
+    "searchTitle": "Filter Search",
+    "resetFilters": "Clear All",
+    "listTitle": "Employee List",
+    "noData": "No data available",
+    "export": "Export",
+    "print": "Print",
+    "viewTitle": "View Employee Details",
+    "editTitle": "Edit Employee Data",
+    "fields": {
+      "employeeId": "Employee ID",
+      "employeeName": "Employee Name",
+      "entityName": "Entity Name",
+      "departmentSection": "Department / Section",
+      "role": "Role",
+      "status": "Status",
+      "actions": "Actions",
+      "editableSection": "Fields Available for Editing",
+      "identitySection": "Employee Identity",
+      "employmentSection": "Employment Data",
+      "roleLabel": "Role",
+      "workSystemType": "Work System Type",
+      "enableMobileAttendance": "Enable Mobile Attendance",
+      "mobileAttendanceHint": "Allows the employee to check in and check out using mobile.",
+      "email": "Email",
+      "nationalId": "National ID",
+      "mobile": "Mobile Number",
+      "address": "Location",
+      "gender": "Gender",
+      "entityCode": "Entity Code",
+      "positionName": "Position Name",
+      "isGovernment": "Is he/she a government employee?",
+      "staffType": "Staff Type",
+      "directManager": "Direct Manager",
+      "joinDate": "Join Date (Gregorian)",
+      "joinDateHijri": "Join Date (Hijri)",
+      "leaveDate": "Leaving Date (Gregorian)",
+      "leaveDateHijri": "Leaving Date (Hijri)",
+      "createdAt": "Created Date",
+      "updatedAt": "Updated Date",
+      "appointmentGovernment": "Government Appointment Date",
+      "appointmentMinistry": "Ministry Appointment Date",
+      "mobileAttendanceStatus": "Mobile Attendance Status"
+    },
+    "placeholders": {
+      "nameOrId": "Name or Employee ID",
+      "departmentOrSection": "Department or Section",
+      "branch": "Entity Name",
+      "role": "Role",
+      "status": "Status"
+    },
+    "roles": {
+      "employee": "Employee",
+      "manager": "Manager"
+    },
+    "workSystemTypes": {
+      "fixed": "Fixed Work System",
+      "shift": "Shift Work System"
+    },
+    "validation": {
+      "workSystemTypeRequired": "Work System Type is required",
+      "roleRequired": "Role is required"
+    },
+    "workSystemChangeNote": "Changing the work system may affect existing shift schedules and requires review.",
+    "messages": {
+      "updated": "Employee data has been updated successfully!"
+    },
+    "mobileEnabled": "Enabled",
+    "mobileDisabled": "Disabled",
+    "yes": "Yes",
+    "no": "No",
+    "male": "Male",
+    "female": "Female",
+    "tooltips": {
+      "schedule": "Employee Work Schedule",
+      "scheduleContent": "View work schedule for: {name}"
+    }
+  },
+  "sidebar": {
+    "home": "Home",
+    "branches": "Branches",
+    "employees": "Employees",
+    "attendance": "Attendance & Departure",
+    "attendanceDaily": "Daily Attendance",
+    "attendanceRecord": "Attendance",
+    "attendanceSettings": "Attendance Settings",
+    "requests": "Requests",
+    "requestsLeaves": "Leaves",
+    "requestsPermissions": "Permissions",
+    "requestsOvertime": "Overtime",
+    "requestsFingerprint": "Missing Punch",
+    "requestsDelegation": "Delegation Requests",
+    "requestsSettings": "Requests Settings",
+    "reports": "Reports",
+    "reportsAttendance": "Attendance & Departure",
+    "reportsAbsence": "Absence & Delay Alerts",
+    "reportsHours": "Work Hours",
+    "reportsLeaves": "Leave Balances",
+    "reportsPermissions": "Permission Balances",
+    "permissions": "Permissions",
+    "reportsOvertime": "Overtime",
+    "reportsFingerprint": "Attendance Logs",
+    "performance": "Performance Evaluations",
+    "performanceCharter": "Performance Charter",
+    "performanceEvaluation": "Evaluation Form",
+    "performanceAppraisal": "General Appraisal Form",
+    "support": "Communication & Support",
+    "supportComplaints": "Administrative Complaints",
+    "supportContact": "Contact Us",
+    "settings": "Settings",
+    "settingsGeneral": "General Settings",
+    "settingsRoles": "Roles & Permissions",
+    "settingsUsers": "Users",
+    "structure": "Organization Structure",
+    "logs": "System Audit Logs",
+    "profile": "Profile",
+    "scheduale": "Work Schedule"
+  },
+  "reportsData": {
+    "report_title": "Report Title",
+    "title": "Report Title",
+    "leaves": "Leave Balances",
+    "summary": "Summary Report",
+    "search_by_title": "Search by Report Title",
+    "year": "Year",
+    "from_date": "From Date",
+    "to_date": "To Date",
+    "employee_name": "Employee Name",
+    "attendance_days": "Attendance Days",
+    "no_checkout_days": "No Check-out Days",
+    "deduction_minutes": "Deduction Minutes",
+    "absence_days": "Absence Days",
+    "leave_days": "Leave Days",
+    "official_holidays": "Official Holidays Days",
+    "external_missions": "External Missions Days",
+    "delay_minutes_without_permission": "Delay Minutes Without Permission",
+    "delay_minutes_with_permission": "Delay Minutes With Permission",
+    "total_delay_minutes": "Total Delay Minutes",
+    "notification_status": "Notification Status",
+    "send_notification": "Send Notification",
+    "notification_sent": "Sent",
+    "notification_not_sent": "Not Sent",
+    "check_in": "Check-in",
+    "check_out": "Check-out",
+    "total_working_hours": "Official Working Hours",
+    "actual_working_hours": "Actual Working Hours",
+    "difference": "Difference",
+    "overtime": "Overtime",
+    "status": "Status",
+    "employees_count": "Employee Count",
+    "total_consumed_balance": "Total Consumed Balance",
+    "distributed_consumed_leaves": "Consumed Leaves (By Type)",
+    "distributed_consumed_permissions": "Consumed Permissions (By Type)",
+    "total_consumed_balance_minutes": "Total Time Consumed",
+    "total_days": "Total Days",
+    "consumed_days": "Consumed Days",
+    "remaining_days": "Remaining Days",
+    "monthly_balance": "Monthly Balance",
+    "remaining_balance": "Remaining Balance",
+    "consumed_count": "Consumed Count",
+    "attendance_logs": "Attendance Logs",
+    "device_check_in": "Device Check-In",
+    "device_check_out": "Device Check-Out",
+    "app_check_in": "App Check-In",
+    "app_check_out": "App Check-Out",
+    "diff_check_in": "Check-In Diff",
+    "diff_check_out": "Check-Out Diff"
+  },
+  "auditLogs": {
+    "title": "System Audit Logs",
+    "description": "Monitor and track all system activities and changes.",
+    "listTitle": "Audit Logs List",
+    "statisticsTitle": "Audit Statistics",
+    "timelineTitle": "Activity Timeline",
+    "viewDetails": "View Audit Details",
+    "filters": {
+      "title": "Search Filters",
+      "event": "Event",
+      "events": "Events",
+      "model": "Model",
+      "modelId": "Model ID",
+      "user": "User",
+      "ipAddress": "IP Address",
+      "dateFrom": "Date From",
+      "dateTo": "Date To",
+      "period": "Period",
+      "search": "Search description..."
+    },
+    "fields": {
+      "event": "Event",
+      "model": "Model",
+      "modelId": "ID",
+      "description": "Description",
+      "user": "User",
+      "ipAddress": "IP",
+      "userAgent": "User Agent",
+      "createdAt": "Date & Time",
+      "changes": "Changes",
+      "metadata": "Technical Details",
+      "oldValue": "Old Value",
+      "newValue": "New Value",
+      "field": "Field"
+    },
+    "periods": {
+      "today": "Today",
+      "yesterday": "Yesterday",
+      "thisWeek": "This Week",
+      "thisMonth": "This Month",
+      "lastMonth": "Last Month",
+      "thisYear": "This Year",
+      "custom": "Custom Range"
+    },
+    "events": {
+      "created": "Created",
+      "updated": "Updated",
+      "deleted": "Deleted",
+      "restored": "Restored",
+      "login_success": "Login Success",
+      "login_failed": "Login Failed",
+      "register": "Registration"
+    },
+    "stats": {
+      "totalLogs": "Total Logs",
+      "actionsByEvent": "Actions by Event",
+      "actionsByModel": "Actions by Model",
+      "topActiveUsers": "Top Active Users",
+      "actions": "Actions",
+      "created": "Created",
+      "updated": "Updated",
+      "deleted": "Deleted",
+      "restored": "Restored",
+      "login_success": "Login Success",
+      "login_failed": "Login Failed",
+      "register": "Registration"
+    },
+    "messages": {
+      "retrieved": "Audit logs retrieved successfully",
+      "statsRetrieved": "Statistics retrieved successfully",
+      "timelineRetrieved": "Timeline retrieved successfully",
+      "notFound": "Log entry not found"
+    }
+  },
+  "errors": {
+    "404": {
+      "title": "Page Not Found",
+      "message": "The page you are looking for is not found in the system.",
+      "message_description": "The page you are looking for may have been moved or deleted, or the link may be incorrect. Please check the link or return to the home page.",
+      "backHome": "Back to Home"
+    },
+    "403": {
+      "title": "Unauthorized",
+      "message": "Sorry, you don't have permission to access this page.",
+      "message_description": "This page requires special permissions. If you need access, please contact the relevant authorities or ensure you are logged in with the appropriate permissions.",
+      "backHome": "Back to Home"
+    },
+    "401": {
+      "title": "Unauthorized",
+      "message": "Sorry, your session has expired or is invalid.",
+      "message_description": "Please log in again to access this page.",
+      "backHome": "Back to Home"
+    }
+  },
+  "structure": {
+    "title": "Organizational Structure",
+    "searchFilter": "Search Filter",
+    "searchPlaceholder": "Search in Organizational Structure",
+    "departmentDetails": "Department Details",
+    "departmentName": "Department Name",
+    "municipalityName": "Parent Name",
+    "departmentManager": "Department Manager",
+    "managerId": "Manager ID",
+    "location": "Location",
+    "lastModified": "Last Modified",
+    "viewDetails": "View Details",
+    "emptyDetails": "Select a department to view its details"
+  },
+  "branches": {
+    "entityName": "Branch",
+    "title": "Branches",
+    "description": "Manage organization branches and offices",
+    "addBranch": "Add New Branch",
+    "searchTitle": "Search Filter",
+    "resetFilters": "Clear All",
+    "listTitle": "Branches List",
+    "empty": "No branches found yet.",
+    "fields": {
+      "name": "Branch Name",
+      "nameAr": "Branch Name (AR)",
+      "nameEn": "Branch Name (EN)",
+      "code": "Branch Code",
+      "address": "Address",
+      "phone": "Phone Number",
+      "email": "Email Address",
+      "managerName": "Branch Manager Name",
+      "managerId": "Manager",
+      "status": "Status",
+      "actions": "Actions",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "usersCount": "Users Count",
+      "logo": "Logo"
+    },
+    "placeholders": {
+      "name": "Branch Name",
+      "nameAr": "Enter Name in Arabic",
+      "nameEn": "Enter Name in English",
+      "phone": "Enter phone number",
+      "email": "Enter email address",
+      "managerName": "Enter branch manager name",
+      "managerId": "Enter manager name",
+      "status": "Status"
+    },
+    "messages": {
+      "created": "Branch added successfully",
+      "updated": "Branch updated successfully",
+      "activated": "Branch activated successfully",
+      "deactivated": "Branch deactivated successfully",
+      "deleted": "Branch deleted successfully",
+      "toggleSuccess": "Branch status updated successfully",
+      "accessStarted": "Preview mode started successfully",
+      "accessBranch": "Access Branch",
+      "accessBranchTooltip": "Access as manager for {name}"
+    },
+    "modals": {
+      "addTitle": "Add New Branch",
+      "editTitle": "Edit Branch",
+      "viewTitle": "View Branch Details",
+      "deleteTitle": "Delete Branch",
+      "deleteMessage": "Are you sure you want to delete this branch?",
+      "toggleTitle": "Confirm Deactivate Branch",
+      "toggleMessage": "Are you sure you want to deactivate this branch? Users assigned to it will not be able to log in to the system.",
+      "toggleConfirm": "Deactivate"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "previewMode": {
+      "label": "Preview Mode",
+      "active": "Previewing as Manager",
+      "exit": "Exit Preview"
+    }
+  },
+  "attendanceSettings": {
+    "title": "Attendance Settings",
+    "tabs": {
+      "workSystem": "Work System",
+      "shifts": "Shifts",
+      "fingerprintLocation": "Location",
+      "notifications": "Notifications"
+    }
+  },
+  "locations": {
+    "entityName": "Location",
+    "title": "Attendance Locations",
+    "addLocation": "Attendance Location",
+    "listTitle": "Attendance Locations List",
+    "searchTitle": "Filter Search",
+    "fields": {
+      "agencyName": "Agency Name",
+      "location": "Location",
+      "nameAr": "Location Name (Arabic)",
+      "nameEn": "Location Name (English)",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "radius": "Allowed Radius (meters)",
+      "status": "Status",
+      "actions": "Actions",
+      "locationOnMap": "Location on Map"
+    },
+    "placeholders": {
+      "searchAgency": "Search by name or code",
+      "enterAgency": "Write search in organizational structure",
+      "searchLocation": "Search for a location...",
+      "radius": "Meters"
+    },
+    "messages": {
+      "created": "Attendance location added successfully.",
+      "updated": "Attendance location updated successfully.",
+      "deleted": "Attendance location deleted successfully.",
+      "activated": "Attendance location activated successfully.",
+      "deactivated": "Attendance location deactivated successfully.",
+      "cannotDelete": "Deletion is not allowed because the location has transactions in the system.",
+      "deactivateConfirmation": "This location is currently associated with assigned employees. Deactivating it will prevent attendance check-in/out from this location. Please confirm.",
+      "noData": "No data available",
+      "radiusHint": "This domain is used to verify the employee’s location during check-in and check-out"
+    },
+    "modals": {
+      "addTitle": "Add Attendance Location",
+      "editTitle": "Edit Attendance Location",
+      "viewTitle": "Attendance Location Details",
+      "deleteTitle": "Confirm Deletion",
+      "deleteMessage": "Are you sure you want to delete this location?",
+      "deactivateTitle": "Confirm Deactivation"
+    },
+    "validation": {
+      "agencyRequired": "Agency name is required",
+      "nameArRequired": "Arabic location name is required",
+      "nameEnRequired": "English location name is required",
+      "mapRequired": "Map selection is required",
+      "radiusRequired": "Allowed radius is required",
+      "radiusMin": "Radius must be more than 0"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    }
+  },
+  "workSystems": {
+    "entityName": "Work System",
+    "title": "Work System",
+    "fixedTitle": "Fixed System",
+    "shiftTitle": "Shift System",
+    "addFixed": "Fixed Work System",
+    "addShift": "Shift Work System",
+    "searchTitle": "Search Filter",
+    "listTitle": "Work System List",
+    "fields": {
+      "name": "Work System Name",
+      "type": "Work System Type",
+      "status": "Status",
+      "actions": "Actions",
+      "nameAr": "Work System Name (AR)",
+      "nameEn": "Work System Name (EN)",
+      "workingDays": "Weekly Working Days",
+      "maxDailyPermission": "Max Daily Permission Hours",
+      "checkInStart": "Check-in Start Time",
+      "positiveBalance": "Positive Balance",
+      "flexibleGracePeriod": "Flexible Grace Period",
+      "positiveBalanceFactor": "Positive Balance Calculation Factor",
+      "endOfWorkTime": "End of Work Time",
+      "dailyWorkingHours": "Daily Working Hours",
+      "lastCheckoutTime": "Last Checkout Time",
+      "typeLabel": "Work System Type"
+    },
+    "placeholders": {
+      "name": "Work System Name",
+      "type": "Work System Type",
+      "status": "Status"
+    },
+    "types": {
+      "fixed": "Fixed",
+      "shift": "Shift"
+    },
+    "messages": {
+      "created": "Work system added successfully",
+      "updated": "Work system updated successfully",
+      "activated": "Work system activated successfully",
+      "deactivated": "Work system deactivated successfully",
+      "deleted": "Work system deleted successfully",
+      "toggleSuccess": "Work system status updated successfully",
+      "retrieved": "Work system retrieved successfully"
+    },
+    "modals": {
+      "addFixedTitle": "Add Fixed Work System",
+      "addShiftTitle": "Add Shift Work System",
+      "viewTitle": "View Official Work System",
+      "viewShiftTitle": "View Shift System",
+      "editFixedTitle": "Edit Fixed System",
+      "editShiftTitle": "Edit Shift System",
+      "deleteTitle": "Delete Work System",
+      "deleteMessage": "Deleting this work system will remove all associated settings and this behavior can't be undone.",
+      "confirmToggleTitle": "Do you want to save and activate the new system?",
+      "confirmToggleMessage": "Activating the new system will deactivate the current one. Do you want to save the new system without activating it, or save and activate it now?",
+      "saveAndActivate": "Save and Activate",
+      "saveOnly": "Save Only",
+      "activeFixedTitle": "A fixed work system is currently active.",
+      "activeShiftTitle": "A shift work system is currently active.",
+      "conflictMessage": "If you save and activate the new system, the current system will be deactivated. Would you like to save the new system only, or save and activate it?",
+      "cannotDeleteTitle": "Delete Work System not allowed",
+      "cannotDeleteMessage": "The work system cannot be deleted because it has existing transactions in the system.",
+      "cannotActivateTitle": "Confirm Work System Activation",
+      "cannotActivateMessage": "There is an active work system of the same type. Do you want to deactivate the current system and activate this one?",
+      "confirmAndActivate": "Confirm",
+      "deactivationNotAllowedTitle": "Deactivation Not Allowed",
+      "deactivationNotAllowedMessage": "You cannot deactivate the current work system. At least one active work system of this type is required."
+    },
+    "validation": {
+      "nameArRequired": "Work System Name (AR is required",
+      "nameArUnique": "Work System Name (AR already exists",
+      "nameEnRequired": "Work System Name (EN) is required",
+      "nameEnUnique": "Work System Name (EN) already exists",
+      "workingDaysRequired": "Working Days is required",
+      "checkInStartRequired": "Attendance Check-in Start Time is required",
+      "positiveBalanceRequired": "Positive Balance Duration is required",
+      "positiveBalanceFactorRequired": "Positive Balance Calculation Factor is required",
+      "flexibleGracePeriodRequired": "Flexible Attendance Grace Period is required",
+      "dailyWorkingHoursRequired": "Daily Working Hours is required",
+      "lastCheckoutTimeRequired": "Last Allowed Check-out Time is required",
+      "maxDailyPermissionRequired": "Max Daily Permission Hours is required",
+      "endOfWorkTimeRequired": "End of Work Time is required",
+      "endOfWorkTimeValidation": "End of Work Time must be after Check-in Start Time",
+      "lastCheckoutTimeValidation": "Last Allowed Check-out Time must be greater than or equal to End of Work Time"
+    },
+    "success": {
+      "activated": "Work system activated successfully",
+      "savedOnly": "The work system has been saved successfully, but it remains inactive."
+    },
+    "shifts": {
+      "morning": "Morning Shift",
+      "evening": "Evening Shift",
+      "night": "Night Shift"
+    }
+  },
+  "shifts": {
+    "entityName": "Shift",
+    "title": "Shifts",
+    "addShift": "Add Shift",
+    "searchTitle": "Search Filter",
+    "listTitle": "Shifts List",
+    "empty": "No shifts found yet.",
+    "addNewShift": "New Shift",
+    "fields": {
+      "name": "Shift Name",
+      "nameAr": "Shift Name (AR)",
+      "nameEn": "Shift Name (EN)",
+      "type": "Shift Type",
+      "department": "Department",
+      "actions": "Actions"
+    },
+    "placeholders": {
+      "name": "Enter shift name",
+      "type": "Select shift type",
+      "department": "Select department"
+    },
+    "types": {
+      "annual": "Annual",
+      "monthly": "Monthly"
+    },
+    "messages": {
+      "created": "Shift added successfully",
+      "updated": "Shift updated successfully",
+      "deleted": "Shift deleted successfully",
+      "retrieved": "Shift retrieved successfully"
+    },
+    "modals": {
+      "addTitle": "Add Shift",
+      "editTitle": "Edit Shift",
+      "viewTitle": "View Shift Details",
+      "deleteTitle": "Delete Shift",
+      "deleteMessage": "Are you sure you want to delete this shift?",
+      "cannotDeleteTitle": "Delete Shift not allowed",
+      "cannotDeleteMessage": "The shift cannot be deleted because it has existing transactions in the system.",
+      "schedules": {
+        "entityName": "Schedule",
+        "title": "Shift Schedule",
+        "addSchedule": "Add New Schedule",
+        "editSchedule": "Edit Annual Schedule",
+        "viewSchedule": "Annual Schedule Details",
+        "annualSchedule": "Annual Schedule",
+        "monthlySchedule": "Monthly Schedule",
+        "saveAndSend": "Save & Send",
+        "monthlyTitle": "Monthly Schedule",
+        "addMonthlySchedule": "Add Monthly Schedule",
+        "editMonthlySchedule": "Edit Monthly Schedule",
+        "viewMonthlySchedule": "View Schedule Details",
+        "fields": {
+          "year": "Year",
+          "workingDays": "Weekly Working Days",
+          "morning": "Morning Period",
+          "evening": "Evening Period",
+          "night": "Night Period",
+          "employee": "Employee",
+          "period": "Period",
+          "month": "Month",
+          "status": "Status",
+          "createdBy": "Created By"
+        },
+        "placeholders": {
+          "year": "Select Year",
+          "selectEmployee": "Select employee for period",
+          "month": "Select Month",
+          "status": "Status"
+        },
+        "status": {
+          "published": "Published",
+          "draft": "Draft",
+          "all": "All"
+        },
+        "messages": {
+          "created": "Annual schedule added successfully",
+          "updated": "Annual schedule updated successfully",
+          "deleted": "Schedule deleted successfully",
+          "yearExists": "An annual schedule for this year already exists",
+          "employeeUnique": "An employee can be assigned to only one shift per day",
+          "employeeUnavailable": "The selected employee is not available during this period.",
+          "employeeRequired": "Employee is required for each period",
+          "yearRequired": "Year is required",
+          "workingDaysRequired": "Weekly working days is required",
+          "monthlyCreated": "Monthly schedule added successfully",
+          "monthlySavedDraft": "Monthly schedule saved as draft successfully",
+          "monthlyUpdated": "Monthly schedule updated successfully",
+          "monthExists": "Monthly schedule for this month already exists.",
+          "confirmDeleteTitle": "Confirm Schedule Deletion",
+          "confirmDeleteMessage": "Are you sure you want to delete the monthly schedule for {month}?",
+          "noData": "No data available",
+          "monthRequired": "Month is required",
+          "copyConfirm": "Copying from a previous month will replace all current data.",
+          "employeeNotRegistered": "Employee is no longer registered in this system or department.",
+          "monthlyCopied": "Schedule copied successfully",
+          "cancelTitle": "Cancel monthly schedule?",
+          "cancelMessage": "The current unsaved data for this monthly schedule will be discarded.",
+          "cancelContinueEditing": "Continue editing",
+          "copyDaySuccessTitle": "Previous day data copied successfully",
+          "copyDaySuccessMessage": "Shift assignments from the previous day have been applied to this day.",
+          "reviewSchedule": "Review schedule",
+          "copyDayEmptyTitle": "Cannot copy previous day data",
+          "copyDayEmptyMessage": "No saved shift data exists for the previous day to copy from.",
+          "assignManually": "Assign shifts manually",
+          "draftSavedTitle": "Monthly schedule saved as draft successfully",
+          "draftSavedMessage": "You can return later to complete the shift assignments and publish the schedule.",
+          "continueSchedule": "Continue schedule",
+          "publishedTitle": "Monthly schedule published successfully",
+          "publishedMessage": "Employees have been notified with the new schedule.",
+          "viewPublishedSchedule": "View published schedule",
+          "incompleteBanner": "There are {count} incomplete days in the schedule.",
+          "showIncompleteDays": "Show incomplete days",
+          "incompleteModalTitle": "There are incomplete days in the schedule",
+          "incompleteModalMessage": "You can save the schedule as a draft now, or complete assigning employees to all shifts before publishing.",
+          "incompleteModalContinue": "Complete incomplete days",
+          "incompleteModalSaveDraft": "Cancel and save as draft"
+        },
+        "saveAsDraft": "Save as Draft",
+        "publish": "Publish & Send Notification",
+        "copyPreviousMonth": "Copy from previous month",
+        "copyPreviousDay": "Copy from previous day",
+        "back": "Back"
+      }
+    }
+  },
+  "notifications": {
+    "title": "Notifications Settings",
+    "listTitle": "Notifications List",
+    "searchTitle": "Search Filter",
+    "entityName": "Notification",
+    "empty": "No notifications found yet.",
+    "resetFilters": "Clear all",
+    "fields": {
+      "name": "Notification Name",
+      "channels": "Delivery Channels",
+      "status": "Status",
+      "actions": "Actions",
+      "titleAr": "Notification Title (Arabic)",
+      "titleEn": "Notification Title (English)",
+      "contentAr": "Notification Content (Arabic)",
+      "contentEn": "Notification Content (English)",
+      "emailSubjectAr": "Email Subject (Arabic)",
+      "emailSubjectEn": "Email Subject (English)",
+      "emailBodyAr": "Email Body (Arabic)",
+      "emailBodyEn": "Email Body (English)",
+      "smsSubjectAr": "SMS Subject (Arabic)",
+      "smsSubjectEn": "SMS Subject (English)",
+      "smsContentAr": "SMS Content (Arabic)",
+      "smsContentEn": "SMS Content (English)"
+    },
+    "placeholders": {
+      "name": "Notification Name",
+      "status": "Status",
+      "titleAr": "Title (Arabic)",
+      "titleEn": "Title (English)",
+      "contentAr": "Content (Arabic)",
+      "contentEn": "Content (English)",
+      "emailSubjectAr": "Email Subject (Arabic)",
+      "emailSubjectEn": "Email Subject (English)",
+      "emailBodyAr": "Email Body (Arabic)",
+      "emailBodyEn": "Email Body (English)",
+      "smsPlaceholder": "Enter your message here...",
+      "emailPlaceholder": "Enter email message here..."
+    },
+    "channels": {
+      "push": "Push Notification",
+      "mail": "Email",
+      "sms": "SMS"
+    },
+    "modals": {
+      "editTitle": "Edit: {name}",
+      "templateTitle": "Notification Template",
+      "emailTemplateTitle": "Email Template",
+      "smsTemplateTitle": "SMS Template"
+    },
+    "messages": {
+      "updated": "Notification updated successfully",
+      "activated": "Notification activated successfully",
+      "deactivated": "Notification deactivated successfully"
+    }
+  },
+  "requestsSettings": {
+    "title": "Requests Settings",
+    "tabs": {
+      "leaveTypes": "Leave Types",
+      "permissions": "Permissions",
+      "overtime": "Overtime",
+      "holidays": "Public Holidays",
+      "notifications": "Notifications"
+    },
+    "permissions": {
+      "title": "Permissions Settings",
+      "maxMonthlyHours": "Maximum Monthly Permission Hours",
+      "maxDailyHours": "Maximum Daily Permission Hours",
+      "recalculateBalance": "The employee's permission balance is recalculated.",
+      "warningPending": "This request exceeds the updated monthly permission limit."
+    },
+    "overtime": {
+      "title": "Overtime Settings",
+      "requiredHours": "Required Overtime Hours",
+      "requiredHoursHint": "The minimum number of hours an employee must complete to receive full overtime.",
+      "overtimeHours": "Overtime Hours",
+      "overtimeHoursHint": "If the required hours are met, full overtime is granted; otherwise, only the actual hours worked are counted."
+    },
+    "messages": {
+      "permissionsSaved": "Permission settings saved successfully",
+      "overtimeSaved": "Overtime settings saved successfully",
+      "validationError": "Please check the entered data",
+      "maxDailyExceedsMaxMonthly": "Maximum daily permission hours must be less than or equal to maximum monthly permission hours"
+    }
+  },
+  "holidays": {
+    "entityName": "Public Holiday",
+    "title": "Public Holidays",
+    "addHoliday": "Public Holiday",
+    "searchTitle": "Search filter",
+    "listTitle": "Public Holidays",
+    "fields": {
+      "nameAr": "Holiday Name (Arabic)",
+      "nameEn": "Holiday Name (English)",
+      "startDate": "From",
+      "endDate": "To",
+      "totalDays": "Total Days",
+      "descriptionAr": "Description (Arabic)",
+      "descriptionEn": "Description (English)",
+      "isActive": "Status",
+      "actions": "Actions",
+      "holidayName": "Holiday Name",
+      "date": "Date"
+    },
+    "placeholders": {
+      "holidayName": "Holiday Name",
+      "startDate": "From Date",
+      "endDate": "To Date",
+      "descriptionAr": "Description (Arabic)",
+      "descriptionEn": "Description (English)",
+      "selectTime": "Select Time Range"
+    },
+    "messages": {
+      "created": "Holiday added successfully",
+      "updated": "Holiday updated successfully",
+      "deleted": "Holiday deleted successfully",
+      "cannotEditPastMonth": "Holidays in previous months cannot be edited",
+      "cannotDeletePastMonth": "Holidays in previous months cannot be deleted",
+      "confirmDelete": "Are you sure you want to delete this holiday?"
+    },
+    "modals": {
+      "addTitle": "Add Public Holiday",
+      "editTitle": "Edit Public Holiday",
+      "viewTitle": "View Holiday Details",
+      "deleteTitle": "Confirm Deletion"
+    },
+    "validation": {
+      "nameArRequired": "Arabic holiday name is required",
+      "nameEnRequired": "English holiday name is required",
+      "startDateRequired": "Start date is required",
+      "endDateRequired": "End date is required",
+      "startDatePastMonth": "Dates from previous months cannot be selected",
+      "endDateBeforeStartDate": "End date must be after or equal to start date"
+    }
+  },
+  "dailyAttendance": {
+    "editTime": "Time",
+    "listTitle": "Attendance and Departure Record",
+    "title": "Daily Attendance",
+    "summary": {
+      "totalEmployees": "Total Employees",
+      "totalPresent": "Total Present",
+      "totalAbsent": "Total Absent",
+      "totalOvertime": "Employees with Overtime"
+    },
+    "fields": {
+      "checkIn": "Check-in Time",
+      "checkOut": "Check-out Time",
+      "selfie": "Selfie Image",
+      "status": "Status",
+      "actualHours": "Actual Working Hours",
+      "actualHours2": "Actual Hours",
+      "workingHoursDetails": "Working Hours",
+      "lateness": "Late Arrival",
+      "earlyLeave": "Early Leave",
+      "earlyLeaveUsed": "Used Early Leave",
+      "overtimeCheckIn": "Overtime Check-in",
+      "overtimeActualHours": "Overtime Hours",
+      "overtimeStatus": "Overtime Status",
+      "overtimeHours": "Overtime Hours",
+      "shiftStart": "Shift Start",
+      "shiftEnd": "Shift End",
+      "day": "Day",
+      "workingHours": "Working Hours",
+      "positiveBalance": "Positive Balance",
+      "positiveBalanceUsed": "Consumed Positive Balance",
+      "excusals": "Permissions",
+      "overtimePunch": "Overtime Punch",
+      "overtime": "Overtime",
+      "shift": "Shift"
+    },
+    "status": {
+      "present": "Present",
+      "absent": "Absent",
+      "late": "Late",
+      "leave": "Leave",
+      "mission": "Official Duty",
+      "rest_day": "Rest Day",
+      "holiday": "Public Holiday",
+      "Executed": "Executed",
+      "Not Executed": "Not Executed",
+      "withdrawn": "Withdrawn",
+      "executed": "Executed"
+    },
+    "statistics": {
+      "title": "",
+      "totalWorkingHours": "Actual Hours",
+      "absentDays": "Absent Days",
+      "holidayDays": "Holiday Days",
+      "excusalHours": "Permission Hours",
+      "positiveBalance": "Positive Balance",
+      "missions": "Missions Days"
+    },
+    "editTimeModal": {
+      "title": "Edit Check-in and Check-out Time",
+      "checkIn": "Check-in Time",
+      "checkOut": "Check-out Time",
+      "save": "Save",
+      "cancel": "Cancel",
+      "errorCheckOutBeforeCheckIn": "Check-out time cannot be earlier than check-in time"
+    },
+    "tabs": {
+      "dailyAttendance": "Daily Attendance",
+      "attendanceLog": "Attendance History",
+      "instantAttendance": "Instant Attendance",
+      "history": "Attendance and Departure History"
+    },
+    "instantAttendance": {
+      "title": "Instant Attendance History",
+      "fields": {
+        "requestDate": "Request Date",
+        "requestTime": "Request Time",
+        "sender": "Sent By",
+        "createdBy": "Created By",
+        "employeeName": "Employee Name",
+        "checkInTime": "Instant Check-In Time",
+        "status": "Status"
+      },
+      "status": {
+        "executed": "Executed",
+        "pending": "Pending",
+        "expired": "Expired",
+        "not_executed": "Not Executed"
+      },
+      "requestButton": "Request Instant Attendance",
+      "modals": {
+        "confirmTitle": "Confirm Request Instant Attendance",
+        "confirmMessage": "An instant attendance confirmation request will be sent to all employees present today.",
+        "confirmMessageNoNotifications": "The request will be created for all employees present today, but no notification will be sent because Instant Attendance is deactivated in settings. Do you want to continue?",
+        "send": "Send",
+        "cancel": "Cancel"
+      },
+      "messages": {
+        "sentSuccess": "Instant attendance request sent successfully"
+      }
+    }
+  },
+  "print": {
+    "ministry": {
+      "line1": "Kingdom of Saudi Arabia",
+      "line2": "Ministry of Municipalities and Housing",
+      "line3": "Hafar Al-Batin Municipality"
+    },
+    "header": {
+      "user": "User:",
+      "date": "Date:",
+      "time": "Time:",
+      "reportTitle": "Report Title:",
+      "fromDate": "From Date:",
+      "toDate": "To Date:"
+    },
+    "footer": {
+      "page": "Page",
+      "of": "of",
+      "user": "User :"
+    }
+  },
+  "leaveTypes": {
+    "title": "Leave Types",
+    "searchTitle": "Search Filter",
+    "listTitle": "Leaves",
+    "fields": {
+      "leaveName": "Leave Name",
+      "leaveType": "Leave Type",
+      "balance": "Balance in Days"
+    },
+    "placeholders": {
+      "leaveName": "Leave Name"
+    }
+  },
+  "overtimeRequests": {
+    "entityName": "Overtime Request",
+    "title": "Overtime",
+    "addRequest": "Request Overtime",
+    "searchTitle": "Search Filter",
+    "listTitle": "Overtime History",
+    "empty": "No overtime requests found yet.",
+    "export": "Export",
+    "print": "Print",
+    "fields": {
+      "employeeName": "Employee",
+      "createdBy": "Created By",
+      "overtimeDate": "Overtime Date",
+      "overtimeCheckIn": "Overtime Check-in",
+      "duration": "Number of Hours",
+      "duration_hours": "Overtime Hours",
+      "status": "Status",
+      "reason": "Reason",
+      "actions": "Actions"
+    },
+    "placeholders": {
+      "selectEmployee": "Employee Name",
+      "date": "Date",
+      "reason": "Enter reason for overtime request",
+      "searchEmployee": "Employee Name or ID",
+      "selectDateRange": "Select Time Range",
+      "status": "Status"
+    },
+    "status": {
+      "pending": "Not Executed",
+      "executed": "Executed",
+      "withdrawn": "Withdrawn"
+    },
+    "modals": {
+      "addTitle": "Request Overtime",
+      "viewTitle": "View Overtime Request Details",
+      "withdrawTitle": "Withdraw Request",
+      "withdraw": "Withdraw",
+      "editTitle": "Edit Overtime Request",
+      "withdrawMessage": "Are you sure you want to withdraw this request?",
+      "cancelTitle": "Cancel Request",
+      "workflow": "Request Workflow",
+      "action": "Action",
+      "actionBy": "Done By",
+      "actionDate": "Action Date"
+    },
+    "messages": {
+      "created": "Overtime request sent successfully",
+      "updated": "Request updated successfully",
+      "withdrawn": "Request withdrawn successfully",
+      "canceled": "Request canceled successfully"
+    }
+  },
+  "missingPunchRequests": {
+    "entityName": "Missing Punch Request",
+    "title": "Missing Punch",
+    "addRequest": "Add Missing Punch Request",
+    "searchTitle": "Filter Search",
+    "listTitle": "Missing Punch Requests Log",
+    "empty": "No missing punch requests found yet.",
+    "export": "Export",
+    "print": "Print",
+    "fields": {
+      "employeeName": "Employee Name",
+      "createdBy": "Created By",
+      "date": "Date",
+      "checkIn": "Modified Check-in",
+      "checkOut": "Modified Check-out",
+      "originalCheckIn": "Original Check-in",
+      "originalCheckOut": "Original Check-out",
+      "status": "Status",
+      "reason": "Reason",
+      "actions": "Actions"
+    },
+    "placeholders": {
+      "selectEmployee": "Employee Name",
+      "date": "Date",
+      "reason": "Enter Reason",
+      "searchEmployee": "Name or Employee ID",
+      "selectDateRange": "Select Date Range",
+      "status": "Status"
+    },
+    "status": {
+      "pending": "Pending",
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "withdrawn": "Withdrawn"
+    },
+    "modals": {
+      "addTitle": "Missing Punch Request",
+      "viewTitle": "Missing Punch Request Details",
+      "withdrawTitle": "Withdraw Request",
+      "withdraw": "Withdraw",
+      "approve": "Approve",
+      "reject": "Reject",
+      "editTitle": "Edit Missing Punch Request",
+      "withdrawMessage": "Are you sure you want to withdraw this request?",
+      "rejectTitle": "Rejection Reason",
+      "workflow": "Request Workflow",
+      "action": "Action",
+      "actionBy": "Action By",
+      "actionDate": "Action Date"
+    },
+    "messages": {
+      "created": "Missing punch request sent successfully",
+      "updated": "Request updated successfully",
+      "withdrawn": "Request withdrawn successfully",
+      "approved": "Request approved successfully",
+      "rejected": "Request rejected successfully",
+      "cannotEditPastMonth": "Punches in previous months cannot be edited"
+    },
+    "validation": {
+      "atLeastOneTime": "Either Entry Time or Exit Time is required"
+    }
+  },
+  "externalMissions": {
+    "entityName": "External Mission",
+    "title": "Delegation Requests",
+    "addRequest": "Register External Mission",
+    "searchTitle": "Search Filter",
+    "listTitle": "External Missions Log",
+    "empty": "No external missions yet.",
+    "export": "Export",
+    "print": "Print",
+    "fields": {
+      "employeeName": "Employee Name",
+      "createdBy": "Created By",
+      "title": "Mission Title",
+      "fromDate": "From Date",
+      "toDate": "To Date",
+      "totalDays": "Total Days",
+      "address": "Mission Location",
+      "description": "Description",
+      "status": "Status",
+      "actions": "Actions",
+      "createdAt": "Created At"
+    },
+    "placeholders": {
+      "selectEmployee": "Employee Name",
+      "searchEmployee": "Name or Employee Number",
+      "date": "Date",
+      "selectDateRange": "Select Date Range",
+      "status": "Status",
+      "title": "Mission Title",
+      "address": "Mission Location",
+      "description": "Enter Description"
+    },
+    "status": {
+      "assigned": "Assigned",
+      "pending": "Assigned",
+      "approved": "Approved",
+      "withdrawn": "Withdrawn",
+      "cancelled": "Withdrawn"
+    },
+    "modals": {
+      "addTitle": "Register External Mission for Employee",
+      "viewTitle": "View External Mission Details",
+      "editTitle": "Edit External Mission",
+      "withdrawTitle": "Withdraw Request",
+      "withdraw": "Withdraw",
+      "approve": "Approve",
+      "reject": "Reject",
+      "workflow": "Request Workflow",
+      "action": "Action",
+      "actionBy": "By",
+      "actionDate": "Action Date",
+      "withdrawMessage": "Are you sure you want to withdraw this request?",
+      "daysHint": "Total days are calculated automatically based on the employee's work schedule, excluding rest days."
+    },
+    "messages": {
+      "created": "Mission registered successfully",
+      "updated": "Mission updated successfully",
+      "withdrawn": "Mission withdrawn successfully",
+      "approved": "Mission approved successfully",
+      "rejected": "Mission rejected successfully",
+      "calculateDaysError": "Error calculating days"
+    }
+  },
+  "leaveRequests": {
+    "entityName": "Leave",
+    "title": "Leaves & Permissions",
+    "addRequest": "Request Leave",
+    "searchTitle": "Search Filter",
+    "listTitle": "Leave Requests Log",
+    "balanceTitle": "Leave Balance",
+    "tabs": {
+      "leaves": "Leaves",
+      "permissions": "Permissions"
+    },
+    "empty": "No leave requests found yet.",
+    "export": "Export",
+    "print": "Print",
+    "balance": {
+      "usage": "Usage",
+      "used": "Used",
+      "remaining": "Remaining",
+      "total": "Total",
+      "days": "Days",
+      "summary": "Leave Balance Summary",
+      "approvedUsed": "Approved Used",
+      "duration": "Duration"
+    },
+    "fields": {
+      "employeeName": "Employee Name/ID",
+      "employeeNumber": "Employee Number",
+      "leaveType": "Leave Type",
+      "fromDate": "From Date",
+      "toDate": "To Date",
+      "duration": "Duration",
+      "status": "Status",
+      "reason": "Reason",
+      "actions": "Actions",
+      "createdBy": "Created By",
+      "approvedBy": "Approved By",
+      "approvedAt": "Approved At",
+      "rejectionReason": "Rejection Reason"
+    },
+    "placeholders": {
+      "selectEmployee": "Select Employee",
+      "searchEmployee": "Employee Name or ID",
+      "selectLeaveType": "Select Leave Type",
+      "date": "Date",
+      "selectDateRange": "Select Date Range",
+      "status": "Status",
+      "reason": "Enter Reason"
+    },
+    "status": {
+      "pending": "Pending",
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "withdrawn": "Withdrawn",
+      "cancelled": "Cancelled"
+    },
+    "modals": {
+      "addTitle": "Request Leave",
+      "viewTitle": "Leave Request Details",
+      "editTitle": "Edit Leave Request",
+      "withdrawTitle": "Withdraw Request",
+      "approveTitle": "Approve Request",
+      "rejectTitle": "Reject Request",
+      "withdraw": "Withdraw",
+      "approve": "Approve",
+      "reject": "Reject",
+      "withdrawConfirm": "Are you sure you want to withdraw this request?",
+      "approveConfirm": "Are you sure you want to approve this request?",
+      "rejectPlaceholder": "Enter rejection reason...",
+      "workflow": "Request Workflow",
+      "action": "Action",
+      "actionBy": "Done By",
+      "actionDate": "Action Date",
+      "daysHint": "Total days are calculated automatically based on the employee's work schedule, excluding rest days."
+    },
+    "messages": {
+      "created": "Leave request sent successfully",
+      "updated": "Leave request updated successfully",
+      "withdrawn": "Leave request withdrawn successfully",
+      "approved": "Leave request approved successfully",
+      "rejected": "Leave request rejected successfully",
+      "balanceInsufficient": "Insufficient leave balance",
+      "toDateAfterFrom": "To date must be after from date",
+      "durationError": "Duration must be at least 1 day"
+    }
+  },
+  "permissionRequests": {
+    "entityName": "Permission",
+    "title": "Request Permission",
+    "addRequest": "Request Permission",
+    "searchTitle": "Search Filter",
+    "listTitle": "Permission Requests Log",
+    "balanceTitle": "Permission Balance",
+    "monthlyBalance": "Monthly Permissions",
+    "positiveBalance": "Positive Balance",
+    "empty": "No permission requests found yet.",
+    "export": "Export",
+    "print": "Print",
+    "balance": {
+      "usage": "Usage",
+      "used": "Used",
+      "remaining": "Remaining",
+      "maxMonthly": "Max Monthly Balance",
+      "maxDaily": "Max Daily Hours",
+      "total": "Total",
+      "minutes": "Minute",
+      "hours": "Hour",
+      "duration": "Duration"
+    },
+    "fields": {
+      "employeeName": "Employee Name",
+      "employeeNumber": "Employee Number",
+      "date": "Date",
+      "fromTime": "From",
+      "toTime": "To",
+      "duration": "Duration",
+      "status": "Status",
+      "reason": "Reason",
+      "actions": "Actions",
+      "createdBy": "Created By",
+      "approvedBy": "Approved By",
+      "approvedAt": "Approved At",
+      "rejectionReason": "Rejection Reason"
+    },
+    "placeholders": {
+      "selectEmployee": "Select Employee",
+      "searchEmployee": "Employee Name or ID",
+      "date": "Date",
+      "fromTime": "From Time",
+      "toTime": "To Time",
+      "duration": "Duration",
+      "status": "Status",
+      "reason": "Enter reason for permission request"
+    },
+    "status": {
+      "pending": "Pending",
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "withdrawn": "Withdrawn",
+      "cancelled": "Cancelled"
+    },
+    "modals": {
+      "addTitle": "Request Permission",
+      "viewTitle": "Permission Request Details",
+      "editTitle": "Edit Permission Request",
+      "withdrawTitle": "Withdraw Request",
+      "approveTitle": "Approve Request",
+      "rejectTitle": "Reject Request",
+      "withdraw": "Withdraw",
+      "approve": "Approve",
+      "reject": "Reject",
+      "currentBalanceHint": "Current monthly permission balance: {balance}",
+      "withdrawConfirm": "Are you sure you want to withdraw this request?",
+      "approveConfirm": "Are you sure you want to approve this request?",
+      "rejectPlaceholder": "Enter rejection reason...",
+      "workflow": "Request Workflow",
+      "action": "Action",
+      "actionBy": "Done By",
+      "actionDate": "Action Date",
+      "exceedsBalanceWarning": "Notice: The requested permission hours exceed the employee's remaining permission balance."
+    },
+    "messages": {
+      "created": "Permission request sent successfully",
+      "updated": "Permission request updated successfully",
+      "withdrawn": "Permission request withdrawn successfully",
+      "approved": "Permission request approved successfully",
+      "rejected": "Permission request rejected successfully",
+      "insufficientBalance": "Insufficient permission balance",
+      "overlapError": "Time conflicts with other permissions",
+      "shiftError": "Permission time must be within official working hours",
+      "durationError": "Duration must be greater than zero",
+      "toTimeAfterFrom": "To time must be after from time",
+      "finalizedMonthError": "Cannot perform operations on finalized months"
+    }
+  },
+  "supportComplaints": {
+    "title": "Internal Memos",
+    "add_complaint": "Add Memo",
+    "entityName": "Memo",
+    "empty": "No memos available",
+    "statistics": {
+      "total": "Total Memos",
+      "posted": "Published Memos",
+      "drafted": "Drafts",
+      "expired": "Expired"
+    },
+    "search": {
+      "title": "Search Filter",
+      "placeholder": "Search by name, subject, or memo number...",
+      "complaints": "Search in memos",
+      "date": "Publish Date",
+      "post_status": "Publish Status",
+      "complaint_status": "Memo Status",
+      "classification": "Classification"
+    },
+    "memosList": {
+      "title": "Memos List",
+      "memo_number": "Memo Number",
+      "publisher": "Publisher",
+      "manager": "Department / Section",
+      "subject": "Subject",
+      "data": "Publish Date",
+      "category": "Category",
+      "publish_status": "Publish Status",
+      "memo_status": "Memo Status",
+      "actions": "Actions"
+    },
+    "status": {
+      "pending": "Pending Review",
+      "posted": "Published",
+      "draft": "Draft",
+      "expired": "Expired",
+      "active": "Active",
+      "inactive": "Inactive",
+      "published": "Published",
+      "unpublished": "Unpublished"
+    },
+    "messages": {
+      "activated": "Memo activated successfully",
+      "deactivated": "Memo deactivated successfully",
+      "published": "Memo published successfully",
+      "unpublished": "Memo unpublished successfully",
+      "deleted": "Memo deleted successfully",
+      "unDeleted": "failed to delete Memo !"
+    },
+    "modals": {
+      "publish": "Publish",
+      "delete": "Delete"
+    }
+  },
+  "memoPage": {
+    "title": "View Memo Details",
+    "memo_number": "Memo Number",
+    "publisher": "Publisher Name",
+    "subject": "Memo Subject",
+    "publish_date": "Publish Date",
+    "category": "Circular Classification",
+    "publish_status": "Publish Status",
+    "memo_status": "Memo Status",
+    "memo_content": "Memo Content",
+    "expiry_date": "Expiry Date",
+    "department": "Department / Section",
+    "attachments": "Attachments"
+  },
+  "add_memo": {
+    "title": "Add Memo",
+    "fields": {
+      "memoSubject": "Memo Subject",
+      "memoContent": "Memo Content",
+      "classification": "Classification",
+      "entityNameCode": "Entity Name or Code",
+      "department": "Department",
+      "expiryDate": "Expiry Date",
+      "publish_date": "Publish Date",
+      "actionTaken": "Action",
+      "takeAction": "Take Action",
+      "attachments": "Attachments"
+    },
+    "placeholders": {
+      "memoSubject": "Enter memo subject",
+      "memoContent": "Enter memo content",
+      "selectClassification": "Select classification",
+      "entityNameCode": "Enter Entity  name or code",
+      "selectDepartment": "Select department",
+      "selectExpiryDate": "Select expiry date",
+      "selectPublishDate": "Select Publish date",
+      "selectAction": "Select action"
+    },
+    "options": {
+      "action": {
+        "confirm": "Confirm",
+        "upload_file": "Upload File"
+      }
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "personalInfo": {
+      "title": "Personal Information",
+      "jobTitlePlaceholder": "Job Title",
+      "status": {
+        "active": "Active",
+        "inactive": "InActive"
+      }
+    },
+    "attendance": {
+      "title": "Attendance Summary",
+      "presence_days": "Presence Days",
+      "absence_days": "Absence Days",
+      "consumed_leaves": "Consumed Leaves",
+      "late_minutes": "Late Minutes",
+      "positive_balance": "Positive Balance"
+    },
+    "leaveBalance": {
+      "title": "Leave Balance",
+      "usage": "Usage",
+      "remaining": "Remaining",
+      "consumed": "Consumed",
+      "day": "Day"
+    },
+    "events": {
+      "title": "Events",
+      "view_all": "View All",
+      "empty": "No new events yet"
+    },
+    "activityLog": {
+      "title": "Recent Activity Log",
+      "view_all": "View All",
+      "empty": "No recent activities yet"
+    },
+    "validation": {
+      "image": {
+        "required": "Image is required",
+        "invalid_type": "You should upload a file of type image only",
+        "max_size": "Image size must be less than 2 MB"
+      },
+      "success": "Image Uploaded Successfully"
+    }
+  },
+  "performance": {
+    "add_charter": "Assign Performance Charter",
+    "empty": "No charters available yet",
+    "entityName": "Charter",
+    "statistics": {
+      "title": "Performance Charters Statistics",
+      "total": "Total Performance Charters",
+      "draft": "Draft Charters",
+      "accept": "Accepted Charters",
+      "refused": "Rejected Charters",
+      "pending": "Pending Charters"
+    },
+    "search": {
+      "title": "Search Filter",
+      "placeholder": "Search by name, subject, or charter number...",
+      "employee": "Employee Name",
+      "charters": "Search in Charters",
+      "charter_type": "Charter Type",
+      "charter_status": "Status",
+      "charter_date": "Last Edit Date"
+    },
+    "chartersList": {
+      "index": "#",
+      "employee": "Employee Name",
+      "job_title": "Job Title",
+      "last_edit_date": "Last Edit Date",
+      "charter_type": "Charter Type",
+      "charter_status": "Charter Status",
+      "actions": "Actions",
+      "year": "Year"
+    },
+    "messages": {
+      "exported": "Charter exported successfully",
+      "sent": "Charter sent successfully",
+      "confirmSendTo": "Confirm sending charter to: {name}",
+      "accepted": "Charter accepted successfully",
+      "rejected": "Charter rejected successfully",
+      "sentAll": "All Charters sent successfully",
+      "acceptedAll": "All Charters accepted successfully",
+      "rejectedAll": "All Charters rejected successfully"
+    },
+    "export": {
+      "title": "Export Charter",
+      "content": "Export Charter: {name}"
+    },
+    "modals": {
+      "accept": "Accept",
+      "reject": "Reject",
+      "send": "Send",
+      "reason": "Reason",
+      "rejectPlaceholder": "Enter rejection reason...",
+      "rejectValidation": "Rejection reason is required"
+    },
+    "stepper": {
+      "targets": "Targets",
+      "competencies": "Competencies",
+      "review": "Review"
+    },
+    "form": {
+      "employee": "Employee",
+      "job_title": "Job Title",
+      "employee_number": "Employee Number",
+      "agency": "Agency",
+      "department": "Department",
+      "assessor": "Assessor",
+      "target_name": "Target Name",
+      "measurement_standard": "Measurement Standard",
+      "weight": "Relative Weight",
+      "expected_results": "Expected Target Result",
+      "competency": "Competency",
+      "behavioral_description": "Behavioral Description of Competencies",
+      "actual_level": "Actual Level",
+      "expected_level": "Expected Level",
+      "final_evaluation": "Final Evaluation",
+      "required_level": "Choose Required Competency Level",
+      "desc_level": "Required Competency Level",
+      "total_weight": "Total Weights",
+      "next": "Next",
+      "previous": "Previous",
+      "save": "Save",
+      "submit": "Submit",
+      "signatures": "Signatures",
+      "date": "Date",
+      "seal": "Seal",
+      "employee_signature": "Employee Signature",
+      "assessor_signature": "Direct Manager Signature",
+      "hr_signature": "HR General Manager Signature",
+      "higher_admin_signature": "Higher Admin Signature",
+      "manager_signature": "Manager Signature",
+      "weight_hint_100": "Total weight must be 100%.",
+      "weight_error_100": "Total weight must be 100%",
+      "hint": "Placeholder text",
+      "placeholder": "Placeholder text",
+      "total_weight_label": "Total Relative Weight",
+      "charter_supervisory": "Performance Charter for Supervisory Position",
+      "charter_supervisory_breadcrumb": "Assign Performance Charter",
+      "summary_standard": "Summary",
+      "reports_standard": "Reports",
+      "add_competency": "Add Competency",
+      "add_description": "Add Description",
+      "assign_hint_title": "Assign Performance Charter",
+      "assign_hint_desc": "This charter will be assigned to the selected employees.",
+      "assign_charter": "Assign Charter",
+      "select_employees": "Select Employees",
+      "add_target_name_placeholder": "Enter target name",
+      "add_expected_results_placeholder": "Enter expected result",
+      "add_weight_placeholder": "Enter weight",
+      "add_competency_placeholder": "Enter competency name",
+      "competency_name": "Competency Name",
+      "competency_required": "At least one competency is required",
+      "behavioral_description_min_2": "At least two behavioral descriptions are required",
+      "employee_required": "Employee is required"
+    },
+    "types": {
+      "standard": "Executive",
+      "managerial": "Managerial"
+    },
+    "statusOptions": {
+      "draft": "Draft",
+      "pending_employee": "Pending Employee Review",
+      "pending_hr": "Pending HR Review",
+      "pending_higher_admin": "Pending Higher Administration",
+      "accepted": "Approved",
+      "rejected": "Rejected",
+      "archived": "Archived"
+    }
+  },
+  "evaluation": {
+    "entityName": "Evaluation Form",
+    "evaluationName": "Form",
+    "add_evaluation": "Add Evaluation Form",
+    "empty": "No evaluation forms available",
+    "notStandard": {
+      "title": "General Performance Appraisal Form for Non-Supervisory Employees"
+    },
+    "statistics": {
+      "title": "Evaluation Forms Statistics",
+      "total": "Total Evaluation Forms",
+      "draft": "Draft Forms",
+      "accept": "Accepted Forms",
+      "refused": "Rejected Forms",
+      "pending": "Pending Forms"
+    },
+    "form": {
+      "expected_result": "Expected Result",
+      "actual_result": "Actual Result",
+      "difference": "Difference",
+      "score": "Score",
+      "total_targets_weight": "Total Relative Weight for Targets",
+      "total_targets_score": "Total Weighted Score for Targets",
+      "total_competencies_weight": "Total Relative Weight for Competencies",
+      "total_competencies_score": "Total Weighted Score for Competencies",
+      "overall_score_label": "Overall Performance Rating",
+      "supervisory_title": "Performance Evaluation Form (Supervisory)",
+      "non_supervisory_title": "Performance Evaluation Form (Non-Supervisory)"
+    },
+    "evaluation_form": {
+      "evaluation_type": "Evaluation Period",
+      "annual": "Annual",
+      "semi_annual": "Semi-Annual Review",
+      "eligibility": "Promotion Eligibility",
+      "eligible": "Eligible",
+      "not_eligible": "Not Eligible",
+      "in_probation": "In Probation Period",
+      "period_from": "From",
+      "period_to": "To",
+      "evaluation_date": "Evaluation Date",
+      "fill_instructions": "Form Filling Instructions",
+      "employee_performance_table": "Employee General Performance Appraisal",
+      "col_grade": "Grade",
+      "col_description": "Description",
+      "col_score": "Score",
+      "col_additional_notes": "Additional Notes",
+      "placeholder_score": "Placeholder text",
+      "placeholder_notes": "Placeholder text",
+      "gap_strengths": "Strengths",
+      "gap_development": "Points Needing Development",
+      "col_reasons": "Reasons",
+      "col_documents": "Documents",
+      "notes": "Notes",
+      "placeholder_reasons": "Placeholder text",
+      "grades": {
+        "1": "Unsatisfactory",
+        "2": "Satisfactory",
+        "3": "Good",
+        "4": "Very Good",
+        "5": "Excellent"
+      },
+      "instructions": {
+        "title": "Form Filling Instructions",
+        "cancel": "Cancel",
+        "step1": "Make sure to fill in all fields in this form.",
+        "step2": "Review the detailed description of the goals and competencies scale.",
+        "step3": "Mention justifications for the employee receiving \"Excellent\" or \"Unsatisfactory\" ratings only, and attach supporting documents."
+      },
+      "validation": {
+        "revision_type": "Evaluation type is required",
+        "readiness": "Eligibility status is required",
+        "period_from": "Start date is required",
+        "period_to": "End date is required",
+        "evaluation_date": "Evaluation date is required",
+        "manager_note": "Notes are required",
+        "grades": "All grades must be entered",
+        "justification": "All justifications must be entered",
+        "supporting_document": "All supporting documents must be provided",
+        "strengths": "All strengths must be entered",
+        "development": "All development points must be entered"
+      },
+      "placeholder_gap": "Placeholder text",
+      "remarks": "Remarks",
+      "placeholder_remarks": "Enter remarks here",
+      "approve": "Approve",
+      "reject": "Reject",
+      "expected_result": "Expected Result",
+      "actual_result": "Actual Result",
+      "difference": "Difference",
+      "score": "Score",
+      "total_targets_score": "Total Weighted Score for Targets",
+      "total_competencies_score": "Total Weighted Score for Competencies",
+      "total_targets_weight": "Total Relative Weight for Targets",
+      "total_competencies_weight": "Total Relative Weight for Competencies",
+      "overall_score_label": "Overall Performance Rating",
+      "supervisory_title": "Performance Evaluation Form (Supervisory)",
+      "non_supervisory_title": "Performance Evaluation Form (Non-Supervisory)",
+      "competency_level": "Choose Level"
+    },
+    "search": {
+      "title": "Search Filter",
+      "placeholder": "Search by name, subject, or form number",
+      "charters": "Search in Forms",
+      "employee": "Employee Name",
+      "charter_type": "Form Type",
+      "charter_status": "Status",
+      "charter_date": "Last Edit Date",
+      "year": "Year"
+    },
+    "chartersList": {
+      "employee": "Employee Name",
+      "job_title": "Job Title",
+      "last_edit_date": "Last Edit Date",
+      "charter_type": "Form Type",
+      "charter_status": "Form Status",
+      "year": "Year",
+      "actions": "Actions",
+      "total": "Total"
+    },
+    "stepper": {
+      "targets": "Targets",
+      "competencies": "Competencies",
+      "review": "Review"
+    },
+
+    "modals": {
+      "accept": "Approve",
+      "reject": "Reject",
+      "send": "Send",
+      "evaluate": "Evaluate",
+      "rejectTitle": "Confirm Evaluation Rejection",
+      "rejectDescription": "Please enter the reason for rejection. Rejection will close the evaluation cycle for this form.",
+      "rejectReason": "Rejection Reason",
+      "rejectReasonPlaceholder": "Enter reason here..."
+    },
+    "messages": {
+      "error": "Something went wrong",
+      "sent": "Evaluation Form sent successfully",
+      "accepted": "Evaluation Form approved successfully",
+      "rejected": "Evaluation Form rejected successfully",
+      "sentAll": "All Evaluation Forms sent successfully",
+      "acceptedAll": "All Evaluation Forms accepted successfully",
+      "rejectedAll": "All Evaluation Forms rejected successfully",
+      "reasonRequired": "Rejection reason is required",
+      "exported": "Evaluation Form exported successfully"
+    },
+    "export": {
+      "title": "Export {target}",
+      "content": "Export {target} for employee {name}"
+    },
+    "statuses": {
+      "draft": "Draft",
+      "pending_employee": "Pending Employee",
+      "pending_admin": "Pending Admin Approval",
+      "accepted": "Approved",
+      "accepted_by_employee": "Approved by Employee",
+      "rejected": "Rejected",
+      "archived": "Archived"
+    },
+    "types": {
+      "standard": "Executive",
+      "managerial": "Managerial"
+    },
+    "statusOptions": {
+      "accepted": "Approved",
+      "rejected": "Rejected",
+      "draft": "Draft",
+      "pending_employee": "Pending Employee Review",
+      "pending_admin": "Pending Administration"
+    },
+    "bulk": {
+      "accept": "Approve ({count})",
+      "reject": "Reject ({count})",
+      "send": "Send ({count})"
+    }
+  },
+  "appraisal": {
+    "statistics": {
+      "title": "General Evaluation Forms Statistics"
+    }
+  },
+  "contact": {
+    "title": "Contact Messages",
+    "add_message": "Add your Message",
+    "messages": "Messages",
+    "entityName": "Message",
+    "empty": "No messages found",
+    "statistics": {
+      "total": "Total Messages",
+      "new": "New Messages",
+      "in_progress": "Under Processing Messages",
+      "done": "Solved Messages"
+    },
+    "search": {
+      "title": "Search Filter",
+      "label": "Search in Messages",
+      "placeholder": "Search by name, subject, or message number...",
+      "status": "Status",
+      "priority": "Priority"
+    },
+    "list": {
+      "title": "Messages List",
+      "message_number": "Message No.",
+      "sender": "Sender",
+      "email": "Email",
+      "subject": "Subject",
+      "date": "Date",
+      "status": "Status",
+      "priority": "Priority",
+      "actions": "Actions"
+    },
+    "status": {
+      "new": "New",
+      "in_progress": "Under Processing",
+      "done": "Solved"
+    },
+    "priority": {
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low"
+    },
+    "confirmPopup": {
+      "title": "Are you sure you want to mark this message as closed?",
+      "confirm": "Close as Solved",
+      "cancel": "Cancel"
+    }
+  },
+  "contactView": {
+    "title": "View Message Details",
+    "message_details": "Message Details",
+    "ref_number": "Reference No. ",
+    "sender_name": "Sender Name",
+    "department": "Department / Section",
+    "contact": "Contact",
+    "content": "Content",
+    "attachments": "Attachments",
+    "attachment_name": "File Name.csv",
+    "close_solution": "Close & Mark as Solved",
+    "closed_success": "Message marked as solved successfully"
+  },
+  "add_message": {
+    "text": "Contact our team and we will get back to you as soon as possible.",
+
+    "contacts": {
+      "address": "Office Address",
+      "phone": "Phone",
+      "email": "Email",
+      "working_hours": "Working Hours"
+    },
+
+    "fields": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "message": "Message",
+      "priority": "Priority",
+      "attachments": "Attachments",
+      "submit": "Send Message"
+    },
+
+    "priority": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High"
+    },
+
+    "validation": {
+      "required": "is required",
+      "min_3": "must be at least 3 characters",
+      "invalid_email": "Invalid email address",
+      "invalidFileType": "Unsupported file type",
+      "fileTooLarge": "File size is too large (maximum 2MB)",
+      "nameRequired": "Name is required",
+      "nameMin": "Name must be at least 2 characters",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Invalid email address",
+      "subjectRequired": "Subject is required",
+      "messageRequired": "Message body is required",
+      "priorityRequired": "Priority is required"
+    },
+
+    "success": "Your message has been sent successfully"
+  },
+  "scheduale": {
+    "title": "Monthly Schedule",
+    "empty": "No monthly schedule available yet",
+    "am": "AM",
+    "pm": "PM",
+    "from": "From",
+    "to": "To",
+    "days": {
+      "sun": "Sunday",
+      "mon": "Monday",
+      "tue": "Tuesday",
+      "wed": "Wednesday",
+      "thu": "Thursday",
+      "fri": "Friday",
+      "sat": "Saturday"
+    },
+    "shifts": {
+      "leave": "Leave",
+      "official_holiday": "Official Holiday",
+      "fixed_system": "Fixed System",
+      "external_mission": "External Mission",
+      "rest": "Rest",
+      "shift": "Shift System",
+      "morning": "Morning Shift",
+      "evening": "Evening Shift",
+      "night": "Night Shift"
+    }
+  }
+}
